@@ -4,7 +4,7 @@ description_courte: "Analyse approfondie du OLTEANP 3000W/6000W Pur Sinus Double
 description_longue: "Découvrez notre test complet du OLTEANP 3000W/6000W Pur Sinus Double Écran LCD. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71nGlpU5IJL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0CZKVVBBN/?tag=amazonwp0b-21"
-categories: ["convertisseur 12v 220v pur sinus","convertisseur 12v 220v 6000w pur sinus"]
+categories: ["convertisseur-12v-220v-1000w-pur-sinus"]
 avis_clients:
   - auteur: "Utilisateur Certifié"
     note: 5

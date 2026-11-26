@@ -4,7 +4,7 @@ description_courte: "Analyse approfondie du DATOUBOSS 24V 2000W/4000W Pur Sinus 
 description_longue: "Découvrez notre test complet du DATOUBOSS 24V 2000W/4000W Pur Sinus LCD. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71X7JmFW2nL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B09ZXNKBZK/?tag=amazonwp0b-21"
-categories: ["convertisseur 24v 220v pur sinus","convertisseur 24v 220v 2000w pur sinus"]
+categories: ["convertisseur-24v-220v-2000w-pur-sinus","convertisseur-24v-220v-pur-sinus"]
 avis_clients:
   - auteur: "Utilisateur Certifié"
     note: 5

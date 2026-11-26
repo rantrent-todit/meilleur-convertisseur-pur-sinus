@@ -4,7 +4,7 @@ description_courte: "Analyse approfondie du Inverter Pur Sinus 48V 220V 2000W/40
 description_longue: "Découvrez notre test complet du Inverter Pur Sinus 48V 220V 2000W/4000W Transformateur. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/614UTsYbaIL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FRM7784S/?tag=amazonwp0b-21"
-categories: ["convertisseur 48v 220v pur sinus"]
+categories: ["convertisseur-12v-220v-1000w-pur-sinus"]
 avis_clients:
   - auteur: "Utilisateur Certifié"
     note: 5
