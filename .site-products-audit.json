@@ -1,0 +1,647 @@
+{
+  "folderName": "meilleur-convertisseur-pur-sinus",
+  "siteName": "PurSinus Expert",
+  "domain": "https://meilleur-convertisseur-pur-sinus.fr",
+  "lastUpdated": "2026-11-26T10:01:26.934Z",
+  "summary": {
+    "total": 33,
+    "relevantCount": 33,
+    "irrelevantCount": 0,
+    "longTitlesCount": 0
+  },
+  "products": [
+    {
+      "file": "2000w-4000w-convertisseur-12v-220v-pur-sinus-onduleur-transformateur-12v-220v-av.md",
+      "slug": "2000w-4000w-convertisseur-12v-220v-pur-sinus-onduleur-transformateur-12v-220v-av",
+      "title": "Convertisseur Pur Sinus 2000W 12V-220V avec Télécommande LCD",
+      "titleLength": 60,
+      "imageUrl": "https://m.media-amazon.com/images/I/71zRNQ+76gL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DT44QBXM/?tag=amazonwp0b-21",
+      "shortDesc": "Découvrez notre test vérifié du convertisseur pur sinus 2000W 12V 220V : performances réelles, intégration solaire et avis d'experts détaillés.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2109,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet correspondant parfaitement à la catégorie des convertisseurs 12V 220V pur sinus de 2000W.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 2000W 12V-220V avec Télécommande LCD",
+      "titleReason": "Suppression du bourrage de mots-clés descriptifs et focalisation sur la puissance continue et la télécommande."
+    },
+    {
+      "file": "convertisseur-12v-220v-230v-pur-sinus-2000w-4000w-convertisseur.md",
+      "slug": "convertisseur-12v-220v-230v-pur-sinus-2000w-4000w-convertisseur",
+      "title": "Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)",
+      "titleLength": 52,
+      "imageUrl": "https://m.media-amazon.com/images/I/71ukrvUTSRL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FWZDR51F/?tag=amazonwp0b-21",
+      "shortDesc": "Test vérifié du convertisseur 12V 230V pur sinus 2000W crête 4000W avec commande déportée. Analyse technique, mesures réelles et verdict d'expert.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2243,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur de tension pur sinus complet adapté aux véhicules aménagés et installations solaires.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)",
+      "titleReason": "Suppression de la répétition du terme 'convertisseur' pour une accroche plus professionnelle."
+    },
+    {
+      "file": "convertisseur-12v-220v-pur-sinus-2000w-onduleur-convertisseur-de-tension-avec-2-.md",
+      "slug": "convertisseur-12v-220v-pur-sinus-2000w-onduleur-convertisseur-de-tension-avec-2-",
+      "title": "Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande",
+      "titleLength": 57,
+      "imageUrl": "https://m.media-amazon.com/images/I/71LFsv75n2L._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DNDX1JWG/?tag=amazonwp0b-21",
+      "shortDesc": "Test vérifié du convertisseur pur sinus 2000W 12V-220V avec écran LCD et télécommande : puissance réelle, stabilité du signal et avis terrain complet.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2551,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Onduleur pur sinus 2000W complet intégrant prises secteur et ports USB.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande",
+      "titleReason": "Suppression de l'énumération superflue des connectiques et des contextes d'usage."
+    },
+    {
+      "file": "convertisseur-12v-220v-pur-sinus-3000w-6000w-onduleur-transformateur-de-tension-.md",
+      "slug": "convertisseur-12v-220v-pur-sinus-3000w-6000w-onduleur-transformateur-de-tension-",
+      "title": "Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD",
+      "titleLength": 53,
+      "imageUrl": "https://m.media-amazon.com/images/I/714XofRjDiL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FLCKRPK4/?tag=amazonwp0b-21",
+      "shortDesc": "Convertisseur pur sinus 3000W crête 6000W 12V vers 220V avec télécommande, écran LCD et ports USB. Idéal camping-car, camion et autonomie solaire.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2145,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet de forte puissance 3000W pour alimentation autonome exigeante.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD",
+      "titleReason": "Retrait des synonymes cumulés (onduleur, transformateur, inverter) et du listing d'accessoires."
+    },
+    {
+      "file": "convertisseur-2000w-48v-220v230v-pur-sinus-onduleur-power-inverter.md",
+      "slug": "convertisseur-2000w-48v-220v230v-pur-sinus-onduleur-power-inverter",
+      "title": "Convertisseur Pur Sinus 2000W 48V-230V",
+      "titleLength": 38,
+      "imageUrl": "https://m.media-amazon.com/images/I/81WJyt-UtoL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0GYYNYPDT/?tag=amazonwp0b-21",
+      "shortDesc": "Test complet du convertisseur pur sinus 2000W 48V vers 220V/230V. Analyse technique, rendement solaire, pic 4000W et avis vérifié d'experts.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 1984,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus 48V complet dédié aux parcs de stockage batterie 48V.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 2000W 48V-230V",
+      "titleReason": "Nettoyage des doublons terminologiques et suppression de l'anglicisme 'Power Inverter'."
+    },
+    {
+      "file": "datouboss-24v-2000w-pur-sinus.md",
+      "slug": "datouboss-24v-2000w-pur-sinus",
+      "title": "DATOUBOSS 24V 2000W Pur Sinus Écran LCD",
+      "titleLength": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/71X7JmFW2nL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09ZXNKBZK/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du DATOUBOSS 24V 2000W/4000W Pur Sinus LCD : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-24v-220v-2000w-pur-sinus",
+        "convertisseur-24v-220v-pur-sinus"
+      ],
+      "words": 1112,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Onduleur 24V complet de marque DATOUBOSS, parfaitement aligné avec la catégorie 24V 2000W.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "DATOUBOSS 24V 2000W Pur Sinus Écran LCD",
+      "titleReason": "Titre d'origine concis, lisible et conforme aux standards éditoriaux."
+    },
+    {
+      "file": "datouboss-48v-3000w-pur-sinus.md",
+      "slug": "datouboss-48v-3000w-pur-sinus",
+      "title": "DATOUBOSS 48V 3000W Pur Sinus Écran LCD",
+      "titleLength": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/71jdlIf-RTL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FFH2HZJL/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du DATOUBOSS 48V 3000W/6000W Pur Sinus Écran LCD : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-48v-220v-pur-sinus"
+      ],
+      "words": 1117,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Station de conversion 48V 3000W complète pour habitat autonome et solaire.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "DATOUBOSS 48V 3000W Pur Sinus Écran LCD",
+      "titleReason": "Titre d'origine clair, compact et bien structuré (Marque + Tension + Puissance + Atout)."
+    },
+    {
+      "file": "edecoa-1500w-pur-sinus.md",
+      "slug": "edecoa-1500w-pur-sinus",
+      "title": "EDECOA 1500W Pur Sinus 12V-220V",
+      "titleLength": 31,
+      "imageUrl": "https://m.media-amazon.com/images/I/71-kEX+XRlL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07DHJQH9F/?tag=amazonwp0b-21",
+      "shortDesc": "L'onduleur pur sinus 1500W (crête 3000W) référence pour van et camping-car : double prise 220V, port USB et télécommande filaire 5 mètres incluse.",
+      "categories": [
+        "convertisseur-12v-220v-1500w-pur-sinus",
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1556,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Modèle complet de référence en conversion 12V-220V de puissance intermédiaire.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "EDECOA 1500W Pur Sinus 12V-220V",
+      "titleReason": "Titre sobre et informatif, structure Marque + Puissance + Tension respectée."
+    },
+    {
+      "file": "edecoa-24v-1500w-pur-sinus.md",
+      "slug": "edecoa-24v-1500w-pur-sinus",
+      "title": "EDECOA 24V 1500W Pur Sinus Télécommande",
+      "titleLength": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/81dOxnr465L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08P5LN56H/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'EDECOA 24V 1500W Pur Sinus Télécommande : une alternative accessible offrant 1500W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-24v-220v-pur-sinus"
+      ],
+      "words": 1037,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet en 24V pour systèmes électriques de camion ou d'embarcation.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "EDECOA 24V 1500W Pur Sinus Télécommande",
+      "titleReason": "Titre équilibré mettant en valeur la commande déportée sans surcharge textuelle."
+    },
+    {
+      "file": "edecoa-24v-2000w-pur-sinus.md",
+      "slug": "edecoa-24v-2000w-pur-sinus",
+      "title": "EDECOA 24V 2000W Pur Sinus Écran LCD",
+      "titleLength": 36,
+      "imageUrl": "https://m.media-amazon.com/images/I/71mvleU9gML._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B083NJJYRJ/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'EDECOA 24V 2000W Pur Sinus Écran LCD : une alternative accessible offrant 2000W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-24v-220v-2000w-pur-sinus",
+        "convertisseur-24v-220v-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur complet 24V 2000W adapté à l'électronique de bord sensible.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "EDECOA 24V 2000W Pur Sinus Écran LCD",
+      "titleReason": "Titre direct et accrocheur, parfait pour la mise en avant en comparatif."
+    },
+    {
+      "file": "giandel-1000w-convertisseur-12v-220v-pur-sinus-onduleur-onde-sinusoidale-pure-tr.md",
+      "slug": "giandel-1000w-convertisseur-12v-220v-pur-sinus-onduleur-onde-sinusoidale-pure-tr",
+      "title": "GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande",
+      "titleLength": 51,
+      "imageUrl": "https://m.media-amazon.com/images/I/81MTWfFuZaL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0BBVN4X1J/?tag=amazonwp0b-21",
+      "shortDesc": "Test complet du convertisseur Giandel 1000W Pur Sinus 12V vers 220V avec écran LCD et télécommande : puissance réelle, stabilité et avis terrain.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2276,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Onduleur pur sinus 1000W complet de marque réputée pour camping-car et solaire.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande",
+      "titleReason": "Suppression des pléonasmes (onde sinusoïdale pure, transformateur) et du descriptif d'options."
+    },
+    {
+      "file": "giandel-1000w-pur-sinus-12v.md",
+      "slug": "giandel-1000w-pur-sinus-12v",
+      "title": "GIANDEL 1000W Pur Sinus 12V 220V",
+      "titleLength": 32,
+      "imageUrl": "https://m.media-amazon.com/images/I/71p0Wu2awiL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07VC799ZW/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du GIANDEL 1000W Pur Sinus 12V 220V : caractéristiques techniques, puissance continue de 1000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus",
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1112,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet de 1000W conforme à la catégorie d'entrée de gamme en onde pure.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "GIANDEL 1000W Pur Sinus 12V-220V",
+      "titleReason": "Titre original idéal : court, précis et dépourvu d'artifices marketing."
+    },
+    {
+      "file": "giandel-3000w-convertisseur-12v-220v-pur-sinus-6100w-puissance-de-pointe-compati.md",
+      "slug": "giandel-3000w-convertisseur-12v-220v-pur-sinus-6100w-puissance-de-pointe-compati",
+      "title": "GIANDEL 3000W 12V 220V Pur Sinus LCD",
+      "titleLength": 36,
+      "imageUrl": "https://m.media-amazon.com/images/I/816b9VK4GDL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DNQ9S4DB/?tag=amazonwp0b-21",
+      "shortDesc": "Découvrez notre test vérifié du convertisseur Giandel 3000W 12V 220V pur sinus. Analyse technique, compatibilité LiFePO4 et retour d'expérience.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2189,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur de tension pur sinus complet de forte puissance, parfaitement adapté aux installations autonomes et camping-cars.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "GIANDEL 3000W 12V 220V Pur Sinus LCD",
+      "titleReason": "Suppression du bourrage de mots-clés et synthèse efficace sur la marque, la puissance, les tensions et la présence de l'écran LCD."
+    },
+    {
+      "file": "green-cell-3000w-pur-sinus.md",
+      "slug": "green-cell-3000w-pur-sinus",
+      "title": "Green Cell 3000W/6000W Pur Sinus 12V 220V",
+      "titleLength": 41,
+      "imageUrl": "https://m.media-amazon.com/images/I/81y+vEeAheL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07S521SPW/?tag=amazonwp0b-21",
+      "shortDesc": "Puissance continue colossale de 3000W (6000W crête) avec onde sinusoïdale pure pour alimenter gros électroménager, micro-ondes, clim et outillage lourd.",
+      "categories": [
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1194,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus 12V vers 220V haute puissance, appareil principal conforme à la thématique.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Green Cell 3000W Pur Sinus 12V 220V",
+      "titleReason": "Titre bien structuré, légère épuration de la mention de crête pour une lisibilité accrue."
+    },
+    {
+      "file": "green-cell-300w-24v-pur-sinus.md",
+      "slug": "green-cell-300w-24v-pur-sinus",
+      "title": "Green Cell 300W Pur Sinus 24V 220V",
+      "titleLength": 34,
+      "imageUrl": "https://m.media-amazon.com/images/I/81iLP2P2QyL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07L3ZGQH1/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Green Cell 300W Pur Sinus 24V 220V : une alternative accessible offrant 300W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-24v-220v-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Onduleur pur sinus 24V vers 220V pour petites puissances, appareil complet et autonome.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Green Cell 300W Pur Sinus 24V 220V",
+      "titleReason": "Titre déjà concis, percutant et conforme aux standards SEO."
+    },
+    {
+      "file": "green-cell-300w-pur-sinus.md",
+      "slug": "green-cell-300w-pur-sinus",
+      "title": "Green Cell 300W/600W Pur Sinus 12V 220V",
+      "titleLength": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/61Ocd1gYJ+L._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0744LR2DZ/?tag=amazonwp0b-21",
+      "shortDesc": "Le best-seller compact idéal pour ordinateur portable, glacière et petits appareils en voiture ou van avec prise allume-cigare et pinces batterie.",
+      "categories": [
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1162,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur 12V 220V compact à onde pure, parfait pour les équipements mobiles légers.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Green Cell 300W Pur Sinus 12V 220V",
+      "titleReason": "Conservation des caractéristiques essentielles sans surcharge inutile."
+    },
+    {
+      "file": "green-cell-500w-24v-pur-sinus.md",
+      "slug": "green-cell-500w-24v-pur-sinus",
+      "title": "Green Cell 500W Pur Sinus 24V 220V",
+      "titleLength": 34,
+      "imageUrl": "https://m.media-amazon.com/images/I/81iLP2P2QyL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07TT5RRB5/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Green Cell 500W Pur Sinus 24V 220V : une alternative accessible offrant 500W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-24v-220v-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur 24V vers 220V d'entrée de gamme, appareil complet pour véhicules utilitaires ou camions.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Green Cell 500W Pur Sinus 24V 220V",
+      "titleReason": "Titre d'origine parfait, précis et court."
+    },
+    {
+      "file": "inverter-12v-1000w-pur-sinus-eco.md",
+      "slug": "inverter-12v-1000w-pur-sinus-eco",
+      "title": "Inverter 12V 1000W Pur Sinus Éco LCD",
+      "titleLength": 36,
+      "imageUrl": "https://m.media-amazon.com/images/I/71OKyOMYI3L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09MN267DS/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Inverter 12V 1000W Pur Sinus Éco LCD : une alternative accessible offrant 1000W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus",
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet de conversion d'énergie 12V en 220V avec onde sinusoïdale pure.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 12V 1000W Pur Sinus Éco LCD",
+      "titleReason": "Titre court, informatif et bien positionné."
+    },
+    {
+      "file": "inverter-1500w-3000w-pur-sinus.md",
+      "slug": "inverter-1500w-3000w-pur-sinus",
+      "title": "Inverter 1500W Pur Sinus 12V Télécommande LCD",
+      "titleLength": 45,
+      "imageUrl": "https://m.media-amazon.com/images/I/61SNMjgazGL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F83PXLP7/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Inverter 1500W/3000W Pur Sinus Télécommande LCD : caractéristiques techniques, puissance continue de 1500W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1500w-pur-sinus",
+        "convertisseur-12v-220v-pur-sinus"
+      ],
+      "words": 1112,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus 1500W continu avec accessoires de commande, équipement principal conforme.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 1500W Pur Sinus 12V Télécommande LCD",
+      "titleReason": "Ajout de la tension d'entrée nominale et clarification de la puissance continue."
+    },
+    {
+      "file": "inverter-2000w-pur-sinus-lcd.md",
+      "slug": "inverter-2000w-pur-sinus-lcd",
+      "title": "Inverter 2000W Pur Sinus 12V Télécommande LCD",
+      "titleLength": 45,
+      "imageUrl": "https://m.media-amazon.com/images/I/71zIdFxcd6L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F18FW1B4/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Inverter 2000W Pur Sinus 12V 220V Télécommande LCD : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1122,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet de 2000W pour alimentation domestique depuis une batterie 12V.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 2000W Pur Sinus 12V Télécommande LCD",
+      "titleReason": "Titre équilibré mettant en valeur les atouts clés de l'appareil."
+    },
+    {
+      "file": "inverter-24v-2000w-pur-sinus.md",
+      "slug": "inverter-24v-2000w-pur-sinus",
+      "title": "Inverter 2000W Pur Sinus 24V 220V",
+      "titleLength": 33,
+      "imageUrl": "https://m.media-amazon.com/images/I/71QghP2LJ+L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0G5XVFGPJ/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Inverter Pur Sinus 24V 2000W Crête 4000W : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1117,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus 24V 2000W, équipement principal pour réseaux 24V.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 2000W Pur Sinus 24V 220V",
+      "titleReason": "Standardisation de la syntaxe et mise en avant de la puissance nominale continue."
+    },
+    {
+      "file": "inverter-24v-3000w-pur-sinus-6000w.md",
+      "slug": "inverter-24v-3000w-pur-sinus-6000w",
+      "title": "Inverter 3000W Pur Sinus 24V Télécommande",
+      "titleLength": 41,
+      "imageUrl": "https://m.media-amazon.com/images/I/71GhcmMDWFL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0DGPYVHGS/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Inverter Pur Sinus 24V 3000W Crête 6000W Télécommande : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1122,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil haute puissance 24V vers 220V pour camions et ateliers autonomes.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 3000W Pur Sinus 24V Télécommande",
+      "titleReason": "Retrait de la mention secondaire de crête pour privilégier l'accessoire télécommande."
+    },
+    {
+      "file": "inverter-24v-3000w-pur-sinus-eco.md",
+      "slug": "inverter-24v-3000w-pur-sinus-eco",
+      "title": "Inverter 24V 3000W Pur Sinus Camion Éco",
+      "titleLength": 39,
+      "imageUrl": "https://m.media-amazon.com/images/I/71Smq+RKT4L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0F9PJQ8VC/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Inverter 24V 3000W Pur Sinus Camion Éco : une alternative accessible offrant 3000W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur 24V pour applications poids lourds et camping-cars, appareil principal conforme.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 24V 3000W Pur Sinus Camion Éco",
+      "titleReason": "Titre concis, descriptif et fidèle à la cible du produit."
+    },
+    {
+      "file": "inverter-24v-3000w-pur-sinus.md",
+      "slug": "inverter-24v-3000w-pur-sinus",
+      "title": "Inverter 3000W Pur Sinus 24V Télécommande",
+      "titleLength": 41,
+      "imageUrl": "https://m.media-amazon.com/images/I/71mQWYflu4L._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0H2M7MTQY/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse complète de l'Inverter 24V 3000W pur sinus : puissance continue massive, pic à 6000W, sécurité avancée et télécommande déportée.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1122,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur de forte puissance 24V vers 220V avec télécommande, équipement autonome complet.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Inverter 3000W Pur Sinus 24V Télécommande",
+      "titleReason": "Élimination des répétitions de puissance pour obtenir une formule directe et efficace."
+    },
+    {
+      "file": "inverter-400w-pur-sinus-eco.md",
+      "slug": "inverter-400w-pur-sinus-eco",
+      "title": "Inverter 400W Pur Sinus Éco 12V 220V",
+      "titleLength": 36,
+      "imageUrl": "https://m.media-amazon.com/images/I/71aEE01bqxL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FQBYY81J/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Inverter 400W Pur Sinus Éco 12V 220V : une alternative accessible offrant 400W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1042,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet correspondant parfaitement à la thématique des convertisseurs pur sinus basse puissance.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur 400W Pur Sinus Éco 12V 220V",
+      "titleReason": "Remplacement du terme générique Inverter par Convertisseur pour une meilleure clarté commerciale."
+    },
+    {
+      "file": "inverter-48v-2000w-pur-sinus.md",
+      "slug": "inverter-48v-2000w-pur-sinus",
+      "title": "Convertisseur Pur Sinus 48V 220V 2000W",
+      "titleLength": 38,
+      "imageUrl": "https://m.media-amazon.com/images/I/614UTsYbaIL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FRM7784S/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Inverter Pur Sinus 48V 220V 2000W/4000W Transformateur : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1117,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur complet 48V vers 220V pur sinus, parfaitement aligné avec la catégorie dédiée.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 48V 220V 2000W",
+      "titleReason": "Suppression de la mention superflue Transformateur et de la puissance de crête pour aller à l'essentiel."
+    },
+    {
+      "file": "olteanp-3000w-6000w-pur-sinus.md",
+      "slug": "olteanp-3000w-6000w-pur-sinus",
+      "title": "OLTEANP 3000W/6000W Pur Sinus Double Écran LCD",
+      "titleLength": 46,
+      "imageUrl": "https://m.media-amazon.com/images/I/71nGlpU5IJL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CZKVVBBN/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du OLTEANP 3000W/6000W Pur Sinus Double Écran LCD : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1117,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Onduleur pur sinus complet de forte puissance avec instrumentation LCD.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "OLTEANP Convertisseur 3000W Pur Sinus LCD",
+      "titleReason": "Clarification du type d'appareil et simplification de la mention de puissance."
+    },
+    {
+      "file": "renogy-1000w-pur-sinus-12v.md",
+      "slug": "renogy-1000w-pur-sinus-12v",
+      "title": "Renogy 1000W Pur Sinus 12V 230V",
+      "titleLength": 31,
+      "imageUrl": "https://m.media-amazon.com/images/I/61TxAT9t8mL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B09WN1R34F/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Renogy 1000W Pur Sinus 12V 220V/230V : caractéristiques techniques, puissance continue de 1000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1112,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus complet d'une marque de référence, idéal pour installations solaires et véhicules aménagés.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Renogy 1000W Pur Sinus 12V 230V",
+      "titleReason": "Nettoyage de la double tension 220V/230V pour une lecture plus fluide."
+    },
+    {
+      "file": "renogy-2000w-pur-sinus-12v-230v.md",
+      "slug": "renogy-2000w-pur-sinus-12v-230v",
+      "title": "Renogy 2000W Pur Sinus 12V 230V",
+      "titleLength": 31,
+      "imageUrl": "https://m.media-amazon.com/images/I/61NhMuZ42aL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07PXK2L83/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Renogy 2000W Pur Sinus 12V 230V : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1112,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Modèle complet et incontournable du catalogue convertisseurs 12V 2000W pur sinus.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Renogy 2000W Pur Sinus 12V 230V",
+      "titleReason": "Titre déjà concis, vendeur et parfaitement structuré."
+    },
+    {
+      "file": "transformateur-3000w-pur-sinus-12v.md",
+      "slug": "transformateur-3000w-pur-sinus-12v",
+      "title": "Convertisseur Pur Sinus 3000W 12V 220V",
+      "titleLength": 38,
+      "imageUrl": "https://m.media-amazon.com/images/I/71rbyC7vNbL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0CQL4ZH8Q/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse approfondie du Transformateur Pur Sinus 3000W 12V 220V Crête 6000W : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1122,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet de conversion d'énergie 12V vers 220V pur sinus.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Convertisseur Pur Sinus 3000W 12V 220V",
+      "titleReason": "Remplacement du terme imprécis Transformateur par Convertisseur et suppression de la mention de crête."
+    },
+    {
+      "file": "vevor-convertisseur-pur-sinus-cc-12-v-vers-ca-230-v-4000-w-onduleur-sinus.md",
+      "slug": "vevor-convertisseur-pur-sinus-cc-12-v-vers-ca-230-v-4000-w-onduleur-sinus",
+      "title": "VEVOR Convertisseur Pur Sinus 12V 230V 4000W",
+      "titleLength": 44,
+      "imageUrl": "https://m.media-amazon.com/images/I/719pfWzDFqL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B0FY5MWYVL/?tag=amazonwp0b-21",
+      "shortDesc": "Onduleur pur sinus 12V 230V 4000W VEVOR avec écran LCD et télécommande. Une solution puissante pour camping-car, bateau et kit solaire autonome.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 2272,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Appareil complet pur sinus haute puissance adapté aux camping-cars et ateliers autonomes.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "VEVOR Convertisseur Pur Sinus 12V 230V 4000W",
+      "titleReason": "Suppression des répétitions de mots-clés (CC/CA, Onduleur Sinus) et des espaces superflus."
+    },
+    {
+      "file": "victron-energy-convertisseur-1200va-12v-230vac-ve-direct.md",
+      "slug": "victron-energy-convertisseur-1200va-12v-230vac-ve-direct",
+      "title": "Victron Phoenix 1200VA 12V 230V VE.Direct",
+      "titleLength": 41,
+      "imageUrl": "https://m.media-amazon.com/images/I/61Tf9ligugL._AC_UL960_FMwebp_QL65_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B07JG23Z7D/?tag=amazonwp0b-21",
+      "shortDesc": "Analyse experte et test du convertisseur Victron Energy Phoenix 1200VA 12V Pur Sinus VE.Direct : fiabilité, puissance continue et autonomie.",
+      "categories": [
+        "convertisseur-pur-sinus-camping-car"
+      ],
+      "words": 3077,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur pur sinus haut de gamme pour installations autonomes et camping-car.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Victron Phoenix 1200VA 12V 230V VE.Direct",
+      "titleReason": "Ajout du nom de gamme Phoenix et standardisation de la tension 230V."
+    },
+    {
+      "file": "yinleader-3000w-pur-sinus.md",
+      "slug": "yinleader-3000w-pur-sinus",
+      "title": "Yinleader 3000W Pur Sinus 12V 220V",
+      "titleLength": 34,
+      "imageUrl": "https://m.media-amazon.com/images/I/71IhOWjAVoL._AC_SL1500_.jpg",
+      "affiliateUrl": "https://www.amazon.fr/dp/B08C796CRG/?tag=amazonwp0b-21",
+      "shortDesc": "Test et analyse de l'Yinleader 3000W Pur Sinus 12V 220V : une alternative accessible offrant 3000W de puissance continue et une vraie onde pure pour petit budget.",
+      "categories": [
+        "convertisseur-12v-220v-1000w-pur-sinus"
+      ],
+      "words": 1037,
+      "isRelevant": true,
+      "verdict": "CONFORME",
+      "reason": "Convertisseur autonome pur sinus 12V vers 220V parfaitement conforme aux catégories cibles.",
+      "isTitleTooLong": false,
+      "suggestedTitle": "Yinleader 3000W Pur Sinus 12V 220V",
+      "titleReason": "Titre d'origine direct, sobre et conforme aux standards du site."
+    }
+  ]
+}

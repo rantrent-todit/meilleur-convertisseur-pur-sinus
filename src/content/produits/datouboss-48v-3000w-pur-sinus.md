@@ -1,5 +1,5 @@
 ---
-titre: "DATOUBOSS 48V 3000W/6000W Pur Sinus Écran LCD"
+titre: "DATOUBOSS 48V 3000W Pur Sinus Écran LCD"
 description_courte: "Analyse approfondie du DATOUBOSS 48V 3000W/6000W Pur Sinus Écran LCD : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du DATOUBOSS 48V 3000W/6000W Pur Sinus Écran LCD. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71jdlIf-RTL._AC_SL1500_.jpg"
@@ -29,8 +29,8 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis DATOUBOSS 48V 3000W/6000W Pur Sinus"
-meta_title: "Avis DATOUBOSS 48V 3000W/6000W Pur Sinus : Test et Prix"
+titre_h1: "Avis DATOUBOSS 48V 3000W Pur Sinus Écran LCD"
+meta_title: "Avis DATOUBOSS 48V 3000W Pur Sinus Écran LCD"
 meta_description: "Avis complet sur le DATOUBOSS 48V 3000W/6000W Pur Sinus. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 

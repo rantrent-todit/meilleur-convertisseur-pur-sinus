@@ -1,12 +1,12 @@
 ---
-titre: "Convertisseur 12V 220V Pur Sinus 3000W/6000W Onduleur Transformateur de Tension Inverter avec écran LCD Télécommande & 2 Prises EU & Ports USB 3,4 A & Port de USB-C pour Camion,Camping-car park,Voyage"
-titre_h1: "Avis Convertisseur 12V 220V Pur Sinus 3000W/6000W Onduleur Transformateur de Tension Inverter avec écran LCD Télécommande & 2 Prises EU & Ports USB 3,4 A & Port de USB-C pour Camion,Camping-car park,Voyage"
+titre: "Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
+titre_h1: "Avis Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
 description_courte: "Convertisseur pur sinus 3000W crête 6000W 12V vers 220V avec télécommande, écran LCD et ports USB. Idéal camping-car, camion et autonomie solaire."
 description_longue: "Examen technique approfondi du convertisseur de tension 12V 220V pur sinus délivrant 3000W en continu et 6000W en crête. Doté d'une commande déportée filaire, d'un afficheur LCD multifonction, de deux prises européennes et de ports USB avec USB-C, ce transformateur s'adresse aux véhicules aménagés, bateaux et installations solaires exigeantes."
 categories: ["convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/714XofRjDiL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FLCKRPK4/?tag=amazonwp0b-21"
-meta_title: "Avis Convertisseur 12V 220V Pur Sinus 3000W/6000W Onduleur Transformateur de Tension Inverter avec écran LCD Télécommande & 2 Prises EU & Ports USB 3,4 A & Port de USB-C pour Camion,Camping-car park,Voyage"
+meta_title: "Avis Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
 meta_description: "Test vérifié du convertisseur 12V 220V pur sinus 3000W/6000W avec LCD et télécommande. Performances, retours terrain et avis d'expert complet."
 avis_clients:
   - auteur: "Angélique B."

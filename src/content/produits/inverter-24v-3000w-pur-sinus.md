@@ -1,5 +1,5 @@
 ---
-titre: "Inverter 24V 220V Pur Sinus 3000W/6000W Télécommande"
+titre: "Inverter 3000W Pur Sinus 24V Télécommande"
 description_courte: "Analyse complète de l'Inverter 24V 3000W pur sinus : puissance continue massive, pic à 6000W, sécurité avancée et télécommande déportée."
 description_longue: "Découvrez notre test complet de l'Inverter 24V 3000W pur sinus. Conçu pour les parcs batteries 24V de camions, chalets et systèmes solaires, il délivre un courant domestique irréprochable avec un rendement de 92%."
 image_url: "https://m.media-amazon.com/images/I/71mQWYflu4L._AC_SL1500_.jpg"
@@ -29,8 +29,8 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Nécessite impérativement une source 24V dédiée"
     - "Section de câble d'entrée à calibrer avec rigueur"
-titre_h1: "Avis Inverter 24V 220V Pur Sinus 3000W/6"
-meta_title: "Avis Inverter 24V 220V Pur Sinus 3000W/6 : Test et Prix"
+titre_h1: "Avis Inverter 3000W Pur Sinus 24V Télécommande"
+meta_title: "Avis Inverter 3000W Pur Sinus 24V Télécommande"
 meta_description: "Avis complet sur le Inverter 24V 220V Pur Sinus 3000W/6. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 

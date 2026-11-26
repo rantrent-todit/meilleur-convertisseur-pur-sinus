@@ -1,12 +1,12 @@
 ---
-titre: "VEVOR Convertisseur Pur Sinus CC 12 V vers CA 230 V 4000 W Onduleur Sinus"
-titre_h1: "Avis VEVOR Convertisseur Pur Sinus CC 12 V vers CA 230 V 4000 W Onduleur Sinus"
+titre: "VEVOR Convertisseur Pur Sinus 12V 230V 4000W"
+titre_h1: "Avis VEVOR Convertisseur Pur Sinus 12V 230V 4000W"
 description_courte: "Onduleur pur sinus 12V 230V 4000W VEVOR avec écran LCD et télécommande. Une solution puissante pour camping-car, bateau et kit solaire autonome."
 description_longue: "Découvrez notre évaluation complète de l'onduleur VEVOR 4000 W pur sinus, conçu pour transformer une tension continue de 12 V en courant alternatif stable de 230 V. Doté d'un écran LCD de contrôle, d'une télécommande filaire, de deux prises domestiques ainsi que de sorties USB et Type-C, ce modèle s'adresse aux utilisateurs exigeants en van aménagé, site isolé ou navigation maritime."
 categories: ["convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/719pfWzDFqL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FY5MWYVL/?tag=amazonwp0b-21"
-meta_title: "Avis VEVOR Convertisseur Pur Sinus CC 12 V vers CA 230 V 4000 W Onduleur Sinus"
+meta_title: "Avis VEVOR Convertisseur Pur Sinus 12V 230V 4000W"
 meta_description: "Avis complet et test vérifié sur l'onduleur VEVOR Pur Sinus 12V 230V 4000W. Analyse technique, retours terrain, forces et verdict de nos experts."
 avis_clients:
   - auteur: "Vero"

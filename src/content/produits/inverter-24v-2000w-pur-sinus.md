@@ -1,5 +1,5 @@
 ---
-titre: "Inverter Pur Sinus 24V 2000W Crête 4000W"
+titre: "Inverter 2000W Pur Sinus 24V 220V"
 description_courte: "Analyse approfondie du Inverter Pur Sinus 24V 2000W Crête 4000W : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du Inverter Pur Sinus 24V 2000W Crête 4000W. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71QghP2LJ+L._AC_SL1500_.jpg"
@@ -29,8 +29,8 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis Inverter Pur Sinus 24V 2000W Crête"
-meta_title: "Avis Inverter Pur Sinus 24V 2000W Crête : Test et Prix"
+titre_h1: "Avis Inverter 2000W Pur Sinus 24V 220V"
+meta_title: "Avis Inverter 2000W Pur Sinus 24V 220V"
 meta_description: "Avis complet sur le Inverter Pur Sinus 24V 2000W Crête. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 

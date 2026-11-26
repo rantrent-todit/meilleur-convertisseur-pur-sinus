@@ -1,12 +1,12 @@
 ---
-titre: "EDECOA 1500W Pur Sinus 12V 220V"
+titre: "EDECOA 1500W Pur Sinus 12V-220V"
 description_courte: "L'onduleur pur sinus 1500W (crête 3000W) référence pour van et camping-car : double prise 220V, port USB et télécommande filaire 5 mètres incluse."
 description_longue: "Analyse approfondie du convertisseur de tension EDECOA 1500W pur sinus : performances de crête à 3000W, qualité de signal THD faible, confort de la commande déportée et comportement sur appareils inductifs."
 categories: ["convertisseur-12v-220v-1500w-pur-sinus","convertisseur-12v-220v-pur-sinus"]
 image_url: "https://m.media-amazon.com/images/I/71-kEX+XRlL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07DHJQH9F/?tag=amazonwp0b-21"
-titre_h1: "Avis EDECOA 1500W Pur Sinus 12V 220V"
-meta_title: "Avis EDECOA 1500W Pur Sinus 12V 220V : Test et Prix"
+titre_h1: "Avis EDECOA 1500W Pur Sinus 12V-220V"
+meta_title: "Avis EDECOA 1500W Pur Sinus 12V-220V"
 meta_description: "Avis complet sur le EDECOA 1500W Pur Sinus 12V 220V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 avis_clients:
   - auteur: "P. L."

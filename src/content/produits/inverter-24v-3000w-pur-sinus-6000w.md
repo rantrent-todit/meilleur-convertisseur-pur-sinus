@@ -1,5 +1,5 @@
 ---
-titre: "Inverter Pur Sinus 24V 3000W Crête 6000W Télécommande"
+titre: "Inverter 3000W Pur Sinus 24V Télécommande"
 description_courte: "Analyse approfondie du Inverter Pur Sinus 24V 3000W Crête 6000W Télécommande : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du Inverter Pur Sinus 24V 3000W Crête 6000W Télécommande. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71GhcmMDWFL._AC_SL1500_.jpg"
@@ -29,8 +29,8 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis Inverter Pur Sinus 24V 3000W Crête"
-meta_title: "Avis Inverter Pur Sinus 24V 3000W Crête : Test et Prix"
+titre_h1: "Avis Inverter 3000W Pur Sinus 24V Télécommande"
+meta_title: "Avis Inverter 3000W Pur Sinus 24V Télécommande"
 meta_description: "Avis complet sur le Inverter Pur Sinus 24V 3000W Crête. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 

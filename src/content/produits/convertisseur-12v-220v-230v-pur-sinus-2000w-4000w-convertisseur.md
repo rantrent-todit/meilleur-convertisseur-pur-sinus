@@ -1,12 +1,12 @@
 ---
-titre: "Convertisseur 12V 220V/230V Pur Sinus 2000W/4000W Convertisseur"
-titre_h1: "Avis Convertisseur 12V 220V/230V Pur Sinus 2000W/4000W Convertisseur"
+titre: "Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)"
+titre_h1: "Avis Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)"
 description_courte: "Test vérifié du convertisseur 12V 230V pur sinus 2000W crête 4000W avec commande déportée. Analyse technique, mesures réelles et verdict d'expert."
 description_longue: "Découvrez notre test vérifié complet du convertisseur 12V 220V/230V Pur Sinus 2000W avec crête à 4000W. Conçu pour les installations autonomes, fourgons aménagés et camping-cars, cet onduleur intègre une télécommande LCD déportée et un ensemble complet de protections électroniques."
 categories: ["convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71ukrvUTSRL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FWZDR51F/?tag=amazonwp0b-21"
-meta_title: "Avis Convertisseur 12V 220V/230V Pur Sinus 2000W/4000W Convertisseur"
+meta_title: "Avis Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)"
 meta_description: "Avis complet et test vérifié du convertisseur 12V 230V Pur Sinus 2000W/4000W. Analyse technique, autonomie et verdict de nos spécialistes."
 avis_clients:
   - auteur: "Manye"
