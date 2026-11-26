@@ -6,6 +6,7 @@ description_longue: "Découvrez notre évaluation complète de l'onduleur VEVOR 
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/719pfWzDFqL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FY5MWYVL/?tag=amazonwp0b-21"
+prix: "269,99"
 meta_title: "Avis VEVOR Convertisseur Pur Sinus 12V 230V 4000W"
 meta_description: "Avis complet et test vérifié sur l'onduleur VEVOR Pur Sinus 12V 230V 4000W. Analyse technique, retours terrain, forces et verdict de nos experts."
 avis_clients:

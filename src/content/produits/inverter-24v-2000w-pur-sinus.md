@@ -4,6 +4,7 @@ description_courte: "Analyse approfondie du Inverter Pur Sinus 24V 2000W Crête 
 description_longue: "Découvrez notre test complet du Inverter Pur Sinus 24V 2000W Crête 4000W. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71QghP2LJ+L._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0G5XVFGPJ/?tag=amazonwp0b-21"
+prix: "255,65"
 categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Certifié"

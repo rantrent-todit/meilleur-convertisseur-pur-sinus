@@ -5,6 +5,7 @@ description_courte: "Test et analyse de l'Inverter 400W Pur Sinus Éco 12V 220V 
 description_longue: "Découvrez notre banc d'essai de l'Inverter 400W Pur Sinus Éco 12V 220V. Positionné sur le segment économique avec une note de 3.5 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71aEE01bqxL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FQBYY81J/?tag=amazonwp0b-21"
+prix: "40,84"
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-500w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 
 

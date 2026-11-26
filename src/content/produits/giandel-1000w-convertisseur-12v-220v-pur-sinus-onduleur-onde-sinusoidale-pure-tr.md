@@ -6,6 +6,7 @@ description_longue: "Analyse approfondie et test vérifié de l'onduleur pur sin
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/81MTWfFuZaL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0BBVN4X1J/?tag=amazonwp0b-21"
+prix: "139,99"
 meta_title: "Avis GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande"
 meta_description: "Découvrez notre avis vérifié sur l'onduleur Giandel 1000W Pur Sinus 12V 220V. Analyse technique, performances, test terrain et retour complet."
 avis_clients:

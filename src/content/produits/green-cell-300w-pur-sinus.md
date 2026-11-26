@@ -5,6 +5,7 @@ description_longue: "Test complet du convertisseur Green Cell 300W pur sinus : e
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-500w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/61Ocd1gYJ+L._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0744LR2DZ/?tag=amazonwp0b-21"
+prix: "49,99"
 titre_h1: "Avis Green Cell 300W/600W Pur Sinus 12V"
 meta_title: "Avis Green Cell 300W/600W Pur Sinus 12V : Test et Prix"
 meta_description: "Avis complet sur le Green Cell 300W/600W Pur Sinus 12V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."

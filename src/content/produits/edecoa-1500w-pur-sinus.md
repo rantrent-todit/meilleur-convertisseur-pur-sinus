@@ -5,6 +5,7 @@ description_longue: "Analyse approfondie du convertisseur de tension EDECOA 1500
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1500w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71-kEX+XRlL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07DHJQH9F/?tag=amazonwp0b-21"
+prix: "159,99"
 titre_h1: "Avis EDECOA 1500W Pur Sinus 12V-220V"
 meta_title: "Avis EDECOA 1500W Pur Sinus 12V-220V"
 meta_description: "Avis complet sur le EDECOA 1500W Pur Sinus 12V 220V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."

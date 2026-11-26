@@ -6,6 +6,7 @@ description_longue: "Examen technique et retour d'expérience complet sur le con
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/816b9VK4GDL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0DNQ9S4DB/?tag=amazonwp0b-21"
+prix: "252,48"
 meta_title: "Avis GIANDEL 3000W 12V 220V Pur Sinus LCD"
 meta_description: "Avis complet et test vérifié du Giandel 3000W 12V 220V pur sinus. Puissance crête de 6100W, gestion LiFePO4 et analyse des performances réelles."
 avis_clients:

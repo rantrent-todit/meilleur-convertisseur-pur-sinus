@@ -6,6 +6,7 @@ description_longue: "Découvrez notre test vérifié complet du convertisseur Vi
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/61Tf9ligugL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07JG23Z7D/?tag=amazonwp0b-21"
+prix: "389,00"
 meta_title: "Avis Victron Phoenix 1200VA 12V 230V VE.Direct"
 meta_description: "Avis complet et test vérifié sur Victron Energy Convertisseur 1200VA 12V 230VAC, VE.Direct. Performances réelles, points forts et notre verdict."
 avis_clients:

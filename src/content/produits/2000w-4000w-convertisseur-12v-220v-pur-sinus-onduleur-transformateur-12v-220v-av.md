@@ -6,6 +6,7 @@ description_longue: "Analyse technique approfondie et avis complet sur le conver
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71zRNQ+76gL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0DT44QBXM/?tag=amazonwp0b-21"
+prix: "159,11"
 meta_title: "Avis Convertisseur Pur Sinus 2000W 12V-220V avec Télécommande LCD"
 meta_description: "Avis complet et test vérifié sur le convertisseur 12V 220V 2000W pur sinus. Analyse technique, retours clients et verdict de nos experts."
 avis_clients:

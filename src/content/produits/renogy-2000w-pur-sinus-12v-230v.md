@@ -4,6 +4,7 @@ description_courte: "Analyse approfondie du Renogy 2000W Pur Sinus 12V 230V : ca
 description_longue: "Découvrez notre test complet du Renogy 2000W Pur Sinus 12V 230V. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/61NhMuZ42aL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07PXK2L83/?tag=amazonwp0b-21"
+prix: "325,99"
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Certifié"

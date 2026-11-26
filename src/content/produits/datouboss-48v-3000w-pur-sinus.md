@@ -4,6 +4,7 @@ description_courte: "Analyse approfondie du DATOUBOSS 48V 3000W/6000W Pur Sinus 
 description_longue: "Découvrez notre test complet du DATOUBOSS 48V 3000W/6000W Pur Sinus Écran LCD. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71jdlIf-RTL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FFH2HZJL/?tag=amazonwp0b-21"
+prix: "199,99"
 categories: ["convertisseur-48v-220v-pur-sinus"]
 avis_clients:
   - auteur: "Utilisateur Certifié"

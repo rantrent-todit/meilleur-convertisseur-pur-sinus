@@ -3,9 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { slugify } from '../../utils/slugify';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import CarteApercu from '../../components/CarteApercu.astro';
 import BlocVerdictTop3 from '../../components/BlocVerdictTop3.astro';
-import TableauComparatif from '../../components/TableauComparatif.astro';
 import BadgeConfiance from '../../components/BadgeConfiance.astro';
 
 export async function getStaticPaths() {
@@ -36,15 +34,76 @@ const content = categoriesCollection.find(c => c.id === slug || c.id === `${slug
 const rawProduits = (await getCollection('produits'))
 	.filter(p => p.data.categories.includes(nomCat) || p.data.categories.includes(slug));
 
-// Trier les produits : les mieux notés en premier
-const produits = rawProduits.sort((a, b) => {
-	const noteA = a.data.satisfaction_globale?.note_moyenne || 4.0;
-	const noteB = b.data.satisfaction_globale?.note_moyenne || 4.0;
-	if (noteB !== noteA) return noteB - noteA;
-	const avisA = a.data.satisfaction_globale?.total_avis || 0;
-	const avisB = b.data.satisfaction_globale?.total_avis || 0;
-	return avisB - avisA;
+// Marques reconnues et marques de premier plan
+const tier1Brands = ['Victron Energy', 'Victron', 'Renogy'];
+const recognizedBrands = [
+	'Victron Energy', 'Victron', 'Renogy', 'GIANDEL', 'EDECOA', 'Green Cell', 'DATOUBOSS', 'VEVOR', 'OLTEANP'
+];
+
+function getBrandName(title: string, id: string): string {
+	for (const b of recognizedBrands) {
+		if (title.toLowerCase().includes(b.toLowerCase()) || id.toLowerCase().includes(b.toLowerCase())) {
+			return b.startsWith('Victron') ? 'Victron' : b;
+		}
+	}
+	return 'Générique';
+}
+
+// Algorithme de scoring de conversion Top 3 : Marque + Prix > 100€ + Volume Avis + Note
+const produitsScored = rawProduits.map(p => {
+	let score = 0;
+	const title = p.data.titre;
+	const brand = getBrandName(title, p.id);
+	const isTier1 = tier1Brands.some(b => title.toLowerCase().includes(b.toLowerCase()) || p.id.toLowerCase().includes(b.toLowerCase()));
+	const isBranded = brand !== 'Générique';
+	
+	// 1. Bonus Marque Tier-1 (+700 pts) ou Marque renommée (+500 pts)
+	if (isTier1) {
+		score += 700;
+	} else if (isBranded) {
+		score += 500;
+	}
+	
+	// 2. Bonus Panier sérieux (> 100 € : +300 pts, gadget < 80 € : -150 pts)
+	const prixNum = parseFloat((p.data.prix || '0').replace(',', '.'));
+	if (prixNum >= 100) {
+		score += 300;
+	} else if (prixNum > 0 && prixNum < 80) {
+		score -= 150;
+	}
+
+	// 3. Bonus Preuve Sociale (Volume total d'avis clients)
+	const totalAvis = p.data.satisfaction_globale?.total_avis || 0;
+	score += Math.min(Math.log10(Math.max(totalAvis, 1)) * 100, 350);
+
+	// 4. Bonus Note de satisfaction client
+	const note = p.data.satisfaction_globale?.note_moyenne || 4.0;
+	score += (note - 4.0) * 200;
+
+	return { produit: p, score, brand };
 });
+
+// Sélection intelligente du Top 3 : diversité des marques prioritaires
+const sortedProds = [...produitsScored].sort((a, b) => b.score - a.score);
+const selectedTop3: typeof sortedProds = [];
+const seenBrands = new Set<string>();
+
+for (const item of sortedProds) {
+	if (selectedTop3.length >= 3) break;
+	if (item.brand !== 'Générique' && !seenBrands.has(item.brand)) {
+		selectedTop3.push(item);
+		seenBrands.add(item.brand);
+	}
+}
+
+for (const item of sortedProds) {
+	if (selectedTop3.length >= 3) break;
+	if (!selectedTop3.some(t => t.produit.id === item.produit.id)) {
+		selectedTop3.push(item);
+	}
+}
+
+const produits = selectedTop3.map(item => item.produit);
 
 const rendered = content ? await render(content) : null;
 const Content = rendered?.Content;
@@ -55,13 +114,12 @@ const nomCatAffichage = content?.data.titre_h1 || nomCat;
 const description = content?.data.description_seo || content?.data.texte_presentation?.substring(0, 160) || `Découvrez notre sélection des meilleurs ${nomCat}. Comparatif complet et guide pour faire le bon choix au meilleur prix.`;
 
 // JSON-LD ItemList (Top 3)
-const top3 = produits.slice(0, 3);
-const itemListJsonLd = top3.length > 0 ? {
+const itemListJsonLd = produits.length > 0 ? {
 	"@context": "https://schema.org",
 	"@type": "ItemList",
 	"name": `Top 3 ${nomCat}`,
-	"numberOfItems": top3.length,
-	"itemListElement": top3.map((p, index) => ({
+	"numberOfItems": produits.length,
+	"itemListElement": produits.map((p, index) => ({
 		"@type": "ListItem",
 		"position": index + 1,
 		"name": p.data.titre,
@@ -120,22 +178,12 @@ const faqJsonLd = content?.data.faq ? {
 			)}
 		</header>
 
-		<!-- PODIUM TOP 3 DE CONVERSION -->
+		<!-- PODIUM TOP 3 DE CONVERSION EXCLUSIF -->
 		{produits.length >= 2 && (
 			<BlocVerdictTop3 
 				produits={produits}
 				titre={`Podium : ${nomCatAffichage}`}
-				sousTitre="Les modèles incontournables sélectionnés pour leur fiabilité, rendement et satisfaction client vérifiée"
-			/>
-		)}
-
-		<!-- TABLEAU COMPARATIF INTERACTIF -->
-		{produits.length > 0 && (
-			<TableauComparatif 
-				produits={produits}
-				limit={produits.length >= 5 ? 5 : 3}
-				titreSection={`Tableau Comparatif : ${nomCatAffichage}`}
-				sousTitreSection="Comparaison directe des caractéristiques clés, puissances de crête et tarifs vérifiés"
+				sousTitre="Les 3 modèles incontournables sélectionnés pour leur fiabilité de marque, leur rendement et la satisfaction vérifiée"
 			/>
 		)}
 
@@ -146,68 +194,6 @@ const faqJsonLd = content?.data.faq ? {
 		{Content && (
 			<section class="my-16 prose prose-slate prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200/90 ring-1 ring-slate-900/5">
 				<Content />
-			</section>
-		)}
-
-		<!-- GRILLE DE TOUS LES MODÈLES DE LA CATÉGORIE -->
-		{produits.length > 0 && (
-			<section class="my-16">
-				<div class="flex items-center justify-between mb-8 pb-4 border-b border-slate-200">
-					<div>
-						<h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight !my-0">
-							Toutes les références évaluées en {nomCat}
-						</h2>
-						<p class="text-sm text-slate-500 mt-1">
-							Fiches techniques approfondies, tests et retours d'acquéreurs certifiés
-						</p>
-					</div>
-					<span class="text-xs font-bold text-slate-600 bg-slate-100 border border-slate-200 px-3.5 py-1.5 rounded-full">
-						{produits.length} modèle{produits.length > 1 ? 's' : ''}
-					</span>
-				</div>
-
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{produits.map((produit, index) => (
-						<div class="relative mt-4">
-							<div class="absolute -top-5 -left-3 w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-xl flex items-center justify-center font-black text-lg z-10 shadow-md border-2 border-white">
-								#{index + 1}
-							</div>
-							<CarteApercu produit={produit} />
-						</div>
-					))}
-				</div>
-			</section>
-		)}
-
-		<!-- FAQ STRUCTURÉE (SCHEMA.ORG FAQPAGE) -->
-		{content?.data.faq && content.data.faq.length > 0 && (
-			<section class="my-16 py-12 px-6 md:px-12 bg-slate-50 rounded-3xl border border-slate-200">
-				<div class="text-center max-w-2xl mx-auto mb-10">
-					<span class="text-xs font-black uppercase tracking-wider text-blue-600 bg-blue-100 px-3 py-1 rounded-full inline-block mb-3">
-						Questions Fréquentes
-					</span>
-					<h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight !my-0">
-						Foire aux questions sur les {nomCat}
-					</h2>
-					<p class="text-sm text-slate-600 mt-2">
-						Nos experts répondent aux interrogations techniques courantes pour réussir votre installation.
-					</p>
-				</div>
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-					{content.data.faq.map(f => {
-						const q = (f as any).question || (f as any).q || "";
-						const r = (f as any).reponse || (f as any).r || "";
-						return (
-							<div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
-								<h3 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
-									<span class="text-blue-600 font-black">?</span>
-									<span>{q}</span>
-								</h3>
-								<p class="text-sm text-slate-600 leading-relaxed pl-4">{r}</p>
-							</div>
-						);
-					})}
-				</div>
 			</section>
 		)}
 	</div>

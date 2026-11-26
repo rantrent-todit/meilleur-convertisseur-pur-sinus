@@ -5,6 +5,7 @@ description_courte: "Test et analyse de l'EDECOA 24V 2000W Pur Sinus Écran LCD 
 description_longue: "Découvrez notre banc d'essai de l'EDECOA 24V 2000W Pur Sinus Écran LCD. Positionné sur le segment économique avec une note de 4.1 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71mvleU9gML._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B083NJJYRJ/?tag=amazonwp0b-21"
+prix: "229,49"
 categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Économique"

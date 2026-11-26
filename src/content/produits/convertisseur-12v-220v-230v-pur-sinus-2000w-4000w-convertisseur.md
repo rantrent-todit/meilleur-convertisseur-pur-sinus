@@ -6,6 +6,7 @@ description_longue: "Découvrez notre test vérifié complet du convertisseur 12
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71ukrvUTSRL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FWZDR51F/?tag=amazonwp0b-21"
+prix: "189,99"
 meta_title: "Avis Convertisseur Pur Sinus 2000W 12V-230V (Crête 4000W)"
 meta_description: "Avis complet et test vérifié du convertisseur 12V 230V Pur Sinus 2000W/4000W. Analyse technique, autonomie et verdict de nos spécialistes."
 avis_clients:

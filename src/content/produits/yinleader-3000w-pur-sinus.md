@@ -5,6 +5,7 @@ description_courte: "Test et analyse de l'Yinleader 3000W Pur Sinus 12V 220V : u
 description_longue: "Découvrez notre banc d'essai de l'Yinleader 3000W Pur Sinus 12V 220V. Positionné sur le segment économique avec une note de 4.2 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71IhOWjAVoL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B08C796CRG/?tag=amazonwp0b-21"
+prix: "245,09"
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Économique"

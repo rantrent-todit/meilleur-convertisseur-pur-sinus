@@ -6,6 +6,7 @@ description_longue: "Examen technique approfondi du convertisseur de tension 12V
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/714XofRjDiL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FLCKRPK4/?tag=amazonwp0b-21"
+prix: "249,99"
 meta_title: "Avis Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
 meta_description: "Test vérifié du convertisseur 12V 220V pur sinus 3000W/6000W avec LCD et télécommande. Performances, retours terrain et avis d'expert complet."
 avis_clients:

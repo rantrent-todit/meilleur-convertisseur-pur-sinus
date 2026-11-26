@@ -6,6 +6,7 @@ description_longue: "Découvrez notre test vérifié du convertisseur de tension
 categories: ["convertisseur-48v-220v-pur-sinus"]
 image_url: "https://m.media-amazon.com/images/I/81WJyt-UtoL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0GYYNYPDT/?tag=amazonwp0b-21"
+prix: "199,99"
 meta_title: "Avis Convertisseur Pur Sinus 2000W 48V-230V"
 meta_description: "Avis complet et test vérifié sur Convertisseur 2000W 48V 220V230V Pur Sinus Onduleur Power Inverter. Performances réelles, points forts et notre verdict."
 avis_clients:
