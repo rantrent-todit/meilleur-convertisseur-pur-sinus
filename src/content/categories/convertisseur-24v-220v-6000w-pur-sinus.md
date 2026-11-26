@@ -27,7 +27,8 @@ Avec 6000W en continu, vous disposez de 26 ampères en 230V, soit l'équivalent 
 ## Guide de Dimensionnement Précis de la Puissance
 ### Gestion de l'appel de courant en 24V
 
-$$I = \frac{6000 \text{ W}}{24 \text{ V} \times 0{,}90} = 277{,}7 \text{ A}$$
+> **Formule appliquée :**  
+> **Intensité (I)** = 6 000 W / (24 V × 0,90) = **277,7 A**
 
 Une telle intensité exige une installation rigoureuse :
 - Fusibles de protection de 350A à 400A.

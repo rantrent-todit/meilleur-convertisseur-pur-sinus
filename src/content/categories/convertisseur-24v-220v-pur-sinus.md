@@ -4,7 +4,7 @@ titre_h1: "Comparatif des Meilleurs Convertisseurs 24V 220V Pur Sinus"
 description_seo: "Sélection des meilleurs convertisseurs pur sinus 24V 220V. Rendement supérieur, division par 2 de l’ampérage pour camions et chalets solaires."
 faq:
   - question: "Pourquoi choisir une installation en 24V plutôt qu'en 12V ?"
-    reponse: "À puissance égale en Watts, doubler la tension de 12V à 24V divise instantanément l'intensité du courant par deux ($P = U \times I$). Un onduleur de 2000W ne tire que 90A en 24V contre 185A en 12V. Cela permet d'utiliser des câbles deux fois plus fins, de diviser par quatre les pertes par effet Joule ($P_{\text{perte}} = R \times I^2$) et d'améliorer le rendement global de l'installation."
+    reponse: "À puissance égale en Watts, doubler la tension de 12V à 24V divise instantanément l'intensité du courant par deux (P = U × I). Un onduleur de 2000W ne tire que 90A en 24V contre 185A en 12V. Cela permet d'utiliser des câbles deux fois plus fins, de diviser par quatre les pertes par effet Joule (Pertes = R × I²) et d'améliorer le rendement global de l'installation."
   - question: "Peut-on brancher un convertisseur 24V sur deux batteries 12V ?"
     reponse: "Oui, il suffit de raccorder deux batteries 12V identiques (même capacité, même marque et même niveau d'usure) en série : la borne positive de la première batterie est reliée à la borne négative de la seconde, et les deux bornes libres restantes délivrent une tension de 24V."
   - question: "Ces convertisseurs sont-ils adaptés aux camions et poids lourds ?"
@@ -25,8 +25,11 @@ En divisant l'intensité par deux par rapport au 12V pour une même puissance re
 ### L'avantage physique du 24V : réduction des pertes par effet Joule
 
 La formule régissant la dissipation de chaleur dans les conducteurs électriques est :
-$$P_{\text{pertes}} = R \times I^2$$
-Lorsque l'on passe de 12V à 24V, l'intensité $I$ est divisée par 2. Son carré ($I^2$) est donc divisé par 4 ! Cela signifie qu'à section de câble égale, les pertes thermiques en ligne sont divisées par quatre.
+
+> **Formule des pertes Joules :**  
+> **Pertes** = R × I²
+
+Lorsque l'on passe de 12V à 24V, l'intensité I est divisée par 2. Son carré (I²) est donc divisé par 4 ! Cela signifie qu'à section de câble égale, les pertes thermiques en ligne sont divisées par quatre.
 
 De plus, les ponts de MOSFET et les transformateurs internes de l'onduleur travaillent avec des courants moindres, ce qui améliore le rendement de conversion global (souvent de 92% à 95%) et prolonge la durée de vie des composants électroniques.
 
@@ -54,7 +57,7 @@ Pour alimenter un convertisseur 24V, deux configurations sont envisageables :
 
 ## Foire Aux Questions
 ### Pourquoi choisir une installation en 24V plutôt qu'en 12V ?
-À puissance égale en Watts, doubler la tension de 12V à 24V divise instantanément l'intensité du courant par deux ($P = U \times I$). Un onduleur de 2000W ne tire que 90A en 24V contre 185A en 12V. Cela permet d'utiliser des câbles deux fois plus fins, de diviser par quatre les pertes par effet Joule ($P_{\text{perte}} = R \times I^2$) et d'améliorer le rendement global de l'installation.
+À puissance égale en Watts, doubler la tension de 12V à 24V divise instantanément l'intensité du courant par deux (P = U × I). Un onduleur de 2000W ne tire que 90A en 24V contre 185A en 12V. Cela permet d'utiliser des câbles deux fois plus fins, de diviser par quatre les pertes par effet Joule (Pertes = R × I²) et d'améliorer le rendement global de l'installation.
 
 ### Peut-on brancher un convertisseur 24V sur deux batteries 12V ?
 Oui, il suffit de raccorder deux batteries 12V identiques (même capacité, même marque et même niveau d'usure) en série : la borne positive de la première batterie est reliée à la borne négative de la seconde, et les deux bornes libres restantes délivrent une tension de 24V.

@@ -32,7 +32,9 @@ La plupart des convertisseurs pur sinus 2000W de qualité professionnelle affich
 ### Autonomie réelle avec une batterie pour 2000W
 
 Pour bien comprendre l'impact sur votre réserve d'énergie, examinons l'autonomie obtenue selon la technologie de stockage :
-$$\text{Courant absorbé} = \frac{2000 \text{ W}}{12 \text{ V} \times 0{,}90} = 185{,}2 \text{ A}$$
+
+> **Formule appliquée :**  
+> **Courant absorbé** = 2 000 W / (12 V × 0,90) = **185,2 A**
 
 - **Avec une batterie Lithium LiFePO4 de 100Ah (BMS 100A continu) :** Incompatible pour 2000W à pleine charge car le BMS coupera par surintensité (limité à 100A).
 - **Avec une batterie Lithium LiFePO4 de 200Ah (BMS 200A continu) :** Compatible. À pleine puissance (2000W), l'autonomie théorique est d'environ 1 heure d'utilisation continue.

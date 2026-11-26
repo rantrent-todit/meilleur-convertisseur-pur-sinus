@@ -25,7 +25,9 @@ Cependant, une telle puissance impose des contraintes électriques extrêmes qui
 ### Pourquoi la barre des 3000W en 12V est-elle si exigeante ?
 
 Sous une tension de 12V nominale, délivrer 3000W réels à travers un étage de puissance doté d'un rendement de 88% exige un courant colossal :
-$$I_{\text{DC}} = \frac{3000 \text{ W}}{12 \text{ V} \times 0{,}88} = 284 \text{ A}$$
+
+> **Formule appliquée :**  
+> **Courant continu (I_DC)** = 3 000 W / (12 V × 0,88) = **284 A**
 
 Une intensité de près de 300 ampères est équivalente à l'effort demandé au démarreur d'un gros moteur diesel, mais ici maintenu en continu pendant des dizaines de minutes. Tout point de faiblesse (cosse mal serrée, câble sous-dimensionné, porte-fusible de mauvaise qualité) se transforme immédiatement en point chaud dangereux.
 

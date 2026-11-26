@@ -44,7 +44,10 @@ L'un des avantages majeurs des onduleurs 500W par rapport aux modèles surpuissa
 ### Dimensionnement batterie pour 500W
 
 Une batterie auxiliaire de 50Ah à 80Ah (AGM, Gel ou Lithium) suffit amplement pour assurer plusieurs heures d'autonomie avec un onduleur 500W.
-$$\text{Courant absorbé à 500W} = \frac{500 \text{ W}}{12 \text{ V} \times 0{,}90} \approx 46 \text{ A}$$
+
+> **Formule appliquée :**  
+> **Courant absorbé à 500W** = 500 W / (12 V × 0,90) ≈ **46 A**
+
 Sur une batterie lithium 100Ah, vous disposez de plus de 2 heures d'utilisation à pleine puissance continue, et de plus de 15 heures pour recharger des ordinateurs portables.
 
 ## Sécurité Électrique, Normes et Bonnes Pratiques d'Installation

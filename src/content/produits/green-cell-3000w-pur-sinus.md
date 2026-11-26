@@ -84,7 +84,9 @@ La gestion thermique est entièrement automatisée :
 ## Guide impératif d'installation et dimensionnement de la batterie
 
 Pour exploiter 3000 watts sous une tension de 12 volts, les lois de la physique imposent une intensité de courant colossale :
-$$I = \frac{P}{U} = \frac{3000\text{ W}}{12\text{ V}} \approx 250\text{ à } 280\text{ Ampères !}$$
+
+> **Calcul d'intensité :**  
+> **I** = P / U = 3 000 W / 12 V ≈ **250 à 280 Ampères !**
 
 Une telle intensité exige une rigueur absolue lors du montage :
 - **Câblage très forte section** : Il est impératif d'utiliser les deux paires de câbles de 35 mm² à 50 mm² en parallèle (ou une liaison unique en 70 mm² pour les liaisons de plus d'un mètre).

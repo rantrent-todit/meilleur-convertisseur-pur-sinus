@@ -37,7 +37,9 @@ Pour sélectionner le convertisseur idéal, deux paramètres fondamentaux doiven
 
 #### 1. La puissance nominale continue
 Il s'agit de la somme des puissances des appareils électriques susceptibles de fonctionner simultanément. Par mesure de précaution et pour optimiser le rendement tout en évitant l'activation permanente de la ventilation de refroidissement, appliquez toujours un coefficient de sécurité de 20% à 25% :
-$$\text{Puissance onduleur} \ge \left( \sum \text{Puissances appareils} \right) \times 1{,}25$$
+
+> **Règle de dimensionnement :**  
+> **Puissance onduleur** ≥ (Total des puissances appareils) × 1,25
 
 #### 2. La puissance de crête admissible
 Certains appareils dotés de moteurs électriques ou de circuits magnétiques (réfrigérateurs à compresseur, pompes à eau, climatiseurs, meuleuses, outillage électroportatif) nécessitent un appel de courant très violent à la mise sous tension. Ce courant d'appel (inrush current) peut représenter 2 à 4 fois la puissance nominale pendant plusieurs dixièmes de seconde. Un convertisseur pur sinus robuste doit afficher une puissance crête au minimum double de sa puissance continue pour absorber ces à-coups sans se mettre en sécurité par surintensité.
@@ -45,8 +47,10 @@ Certains appareils dotés de moteurs électriques ou de circuits magnétiques (r
 ## Dimensionnement du Parc de Batteries et Recommandations de Câblage
 ### Dimensionnement du parc batterie et câblage
 
-L'alimentation d'un onduleur en 12V engendre des intensités très substantielles. La loi d'Ohm et la conservation de l'énergie ($P = U \times I$) imposent une vigilance maximale. Pour délivrer 1200W en 230V avec un rendement de 90%, l'onduleur soutire plus de 110 ampères sur le circuit 12V :
-$$I_{\text{DC}} = \frac{1200 \text{ W}}{12 \text{ V} \times 0{,}90} \approx 111 \text{ A}$$
+L'alimentation d'un onduleur en 12V engendre des intensités très substantielles. La loi d'Ohm et la conservation de l'énergie (P = U × I) imposent une vigilance maximale. Pour délivrer 1200W en 230V avec un rendement de 90%, l'onduleur soutire plus de 110 ampères sur le circuit 12V :
+
+> **Formule appliquée :**  
+> **Courant continu (I_DC)** = 1 200 W / (12 V × 0,90) ≈ **111 A**
 
 #### Tableau des sections de câbles cuivre recommandées (longueur < 1,5 m) :
 

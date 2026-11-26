@@ -58,12 +58,15 @@ Tout convertisseur affiche deux valeurs distinctes :
 
 ## Dimensionnement de la Batterie de Cellule et Consommation Électrique
 
-L'alimentation d'un convertisseur 230V sous une tension de 12V implique la circulation de courants très importants dans le circuit continu de la cellule du camping-car. La loi physique de conservation de la puissance ($P = U \times I$) met en évidence l'effort demandé à votre batterie :
+L'alimentation d'un convertisseur 230V sous une tension de 12V implique la circulation de courants très importants dans le circuit continu de la cellule du camping-car. La loi physique de conservation de la puissance (P = U × I) met en évidence l'effort demandé à votre batterie :
 
-$$\text{Courant continu absorbé (A)} = \frac{\text{Puissance consommée en 230V (W)}}{12 \text{ Volts} \times \text{Rendement de l'onduleur}}$$
+> **Formule de calcul :**  
+> **Courant continu absorbé (A)** = Puissance consommée en 230V (W) / (12 Volts × Rendement de l'onduleur)
 
 Avec un rendement moyen de 90%, un appareil de 1500 Watts (comme une cafetière en chauffe) soutire environ 138 ampères sur la batterie 12V :
-$$I = \frac{1500}{12 \times 0{,}90} \approx 138{,}9 \text{ Ampères}$$
+
+> **Exemple chiffré :**  
+> **Intensité (I)** = 1 500 / (12 × 0,90) ≈ **138,9 Ampères**
 
 ### Batterie Lithium LiFePO4 vs Batterie au Plomb (AGM / Gel)
 

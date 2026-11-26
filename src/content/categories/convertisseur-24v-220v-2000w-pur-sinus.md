@@ -23,7 +23,9 @@ Le convertisseur 24V 220V pur sinus 2000W (crête 4000W) représente le point d'
 ### Les atouts concrets de l'architecture 24V 2000W
 
 L'équation de puissance démontre l'intérêt immédiat de cette configuration :
-$$I = \frac{2000 \text{ W}}{24 \text{ V} \times 0{,}92} = 90{,}5 \text{ A}$$
+
+> **Formule appliquée :**  
+> **Intensité (I)** = 2 000 W / (24 V × 0,92) = **90,5 A**
 
 Avec seulement 90A à pleine puissance, les borniers de raccordement ne subissent aucune surchauffe critique, et l'appareil peut soutenir sa pleine puissance pendant des périodes prolongées sans déclencher sa protection thermique prématurément.
 

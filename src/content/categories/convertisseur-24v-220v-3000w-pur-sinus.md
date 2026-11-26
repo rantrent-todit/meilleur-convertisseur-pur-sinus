@@ -22,7 +22,8 @@ Le convertisseur 24V 220V pur sinus 3000W (pointe à 6000W) est l'onduleur tout-
 ## Principes Électrotechniques et Fonctionnement
 ### Efficacité et maîtrise de l'intensité
 
-$$I_{\text{DC}} = \frac{3000 \text{ W}}{24 \text{ V} \times 0{,}90} = 138{,}9 \text{ A}$$
+> **Formule appliquée :**  
+> **Courant continu (I_DC)** = 3 000 W / (24 V × 0,90) = **138,9 A**
 
 Avec moins de 140 ampères soutirés à pleine puissance, l'installation reste sécurisante et facile à câbler avec des sections de 35 mm² ou 50 mm², évitant les faisceaux de câbles rigides et intransportables indispensables en 12V.
 

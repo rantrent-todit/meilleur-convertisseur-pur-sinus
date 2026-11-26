@@ -4,7 +4,7 @@ titre_h1: "Comparatif des Meilleurs Convertisseurs 48V 220V Pur Sinus"
 description_seo: "Comparatif des convertisseurs 48V 220V pur sinus. Le standard d’excellence pour les habitations autonomes solaires, rendement jusqu’à 96%."
 faq:
   - question: "Pourquoi choisir le 48V pour une maison autonome solaire ?"
-    reponse: "Le 48V divise le courant continu par 4 par rapport au 12V. Pour une puissance de 3000W, le courant n'est que de 65A en 48V contre 280A en 12V. Les pertes en ligne sont divisées par 16 ($I^2$), le rendement de conversion atteint 94% à 96%, et les câbles restent fins et très faciles à installer."
+    reponse: "Le 48V divise le courant continu par 4 par rapport au 12V. Pour une puissance de 3000W, le courant n'est que de 65A en 48V contre 280A en 12V. Les pertes en ligne sont divisées par 16 (I²), le rendement de conversion atteint 94% à 96%, et les câbles restent fins et très faciles à installer."
   - question: "Quelles batteries utiliser avec un onduleur 48V pur sinus ?"
     reponse: "Les batteries lithium de format rack 48V / 51,2V (type Pylontech US2000C, US3000C ou US5000) sont le standard mondial. Elles s'empilent dans une baie, communiquent via bus CAN avec le convertisseur et offrent une durée de vie supérieure à 6000 cycles."
   - question: "Quelle section de câble utiliser en 48V ?"
@@ -25,13 +25,16 @@ Cette tension permet de bénéficier des meilleurs rendements de conversion du m
 ### Pourquoi le 48V domine l'autonomie solaire
 
 La baisse spectaculaire de l'ampérage transforme la gestion énergétique :
-$$I_{\text{48V}} = \frac{P}{48 \text{ V} \times \text{Rendement}}$$
+
+> **Formule appliquée en 48V :**  
+> **Intensité en 48V (I_48V)** = Puissance / (48 V × Rendement)
+
 Pour une puissance de 4000 Watts :
 - En 12V : **~ 370 Ampères** (irréaliste pour une installation domestique).
 - En 24V : **~ 185 Ampères** (câbles très épais de 50 mm²).
 - En 48V : **~ 87 Ampères** (câble standard de 25 mm² très aisé à manipuler).
 
-Les pertes joules ($R \times I^2$) étant divisées par 16 par rapport au 12V, l'onduleur chauffe peu, les ventilateurs tournent à régime réduit et le rendement énergétique dépasse régulièrement 95%.
+Les pertes joules (R × I²) étant divisées par 16 par rapport au 12V, l'onduleur chauffe peu, les ventilateurs tournent à régime réduit et le rendement énergétique dépasse régulièrement 95%.
 
 ## Guide de Dimensionnement Précis de la Puissance
 ### Compatibilité avec les batteries modulaires en rack 48V
@@ -59,7 +62,7 @@ En basse tension de sécurité (TBTS), la tension de 48V reste inférieure au se
 
 ## Foire Aux Questions
 ### Pourquoi choisir le 48V pour une maison autonome solaire ?
-Le 48V divise le courant continu par 4 par rapport au 12V. Pour une puissance de 3000W, le courant n'est que de 65A en 48V contre 280A en 12V. Les pertes en ligne sont divisées par 16 ($I^2$), le rendement de conversion atteint 94% à 96%, et les câbles restent fins et très faciles à installer.
+Le 48V divise le courant continu par 4 par rapport au 12V. Pour une puissance de 3000W, le courant n'est que de 65A en 48V contre 280A en 12V. Les pertes en ligne sont divisées par 16 (I²), le rendement de conversion atteint 94% à 96%, et les câbles restent fins et très faciles à installer.
 
 ### Quelles batteries utiliser avec un onduleur 48V pur sinus ?
 Les batteries lithium de format rack 48V / 51,2V (type Pylontech US2000C, US3000C ou US5000) sont le standard mondial. Elles s'empilent dans une baie, communiquent via bus CAN avec le convertisseur et offrent une durée de vie supérieure à 6000 cycles.

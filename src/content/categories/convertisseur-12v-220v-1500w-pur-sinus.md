@@ -25,7 +25,9 @@ Il offre la puissance nécessaire pour alimenter les appareils les plus convoit�
 ### Le juste équilibre technique
 
 À 1500 Watts, le courant continu soutiré sous 12V atteint environ 138 ampères :
-$$I = \frac{1500 \text{ W}}{12 \text{ V} \times 0{,}90} = 138{,}9 \text{ A}$$
+
+> **Formule appliquée :**  
+> **Intensité (I)** = 1 500 W / (12 V × 0,90) = **138,9 A**
 
 Cette intensité permet de rester dans des calibres de câbles encore faciles à manipuler (35 mm²) et reste compatible avec un nombre croissant de batteries lithium LiFePO4 12V 100Ah ou 150Ah dotées d'un BMS tolérant 150A en décharge d'impulsion ou continue.
 
