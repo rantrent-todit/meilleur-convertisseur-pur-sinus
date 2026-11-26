@@ -4,20 +4,23 @@ import { getCollection } from 'astro:content';
 import CarteApercu from '../components/CarteApercu.astro';
 import BoutonAmazon from '../components/BoutonAmazon.astro';
 import BlocVerdictTop3 from '../components/BlocVerdictTop3.astro';
-import TableauComparatif from '../components/TableauComparatif.astro';
 import BadgeConfiance from '../components/BadgeConfiance.astro';
 import { slugify } from '../utils/slugify';
+import { formatCategoryLabel } from '../utils/formatCategory';
 import { siteConfig } from '../config/site.config';
 
 const allProducts = await getCollection('produits');
 
-// Sélection experte des 3 best-sellers en stock permanent sur Amazon France
-const winnerProduct = allProducts.find(p => p.id === 'edecoa-1500w-pur-sinus') || allProducts[0];
-const secondProduct = allProducts.find(p => p.id === 'green-cell-300w-pur-sinus') || allProducts[1];
-const thirdProduct = allProducts.find(p => p.id === 'green-cell-3000w-pur-sinus') || allProducts[2];
+// Sélection experte des 3 modèles de marques leaders en stock permanent sur Amazon France
+const winnerProduct = allProducts.find(p => p.id === 'victron-energy-convertisseur-1200va-12v-230vac-ve-direct') || allProducts[0];
+const secondProduct = allProducts.find(p => p.id === 'renogy-2000w-pur-sinus-12v-230v') || allProducts[1];
+const thirdProduct = allProducts.find(p => p.id === 'olteanp-3000w-6000w-pur-sinus') || allProducts[2];
 
 const top3 = [winnerProduct, secondProduct, thirdProduct];
-const autresProduits = allProducts.filter(p => !top3.some(t => t.id === p.id)).slice(0, 6);
+
+// 3 autres modèles de marques établies recommandés par la rédaction
+const autresIds = ['edecoa-1500w-pur-sinus', 'datouboss-24v-2000w-pur-sinus', 'giandel-1000w-pur-sinus-12v'];
+const autresProduits = allProducts.filter(p => autresIds.includes(p.id));
 
 // Extraction unique des catégories pour le maillage interne
 const toutesCategories = [...new Set(allProducts.flatMap(p => p.data.categories))].sort();
@@ -140,20 +143,11 @@ const structuredData = {
 			<BlocVerdictTop3 
 				produits={top3} 
 				titre="Le Podium : Les 3 Meilleurs Convertisseurs Pur Sinus"
-				sousTitre="Modèles vérifiés en stock officiel sur Amazon France avec onde sinusoïdale pure certifiée"
+				sousTitre="Modèles de marques de référence en stock officiel sur Amazon France avec onde sinusoïdale pure certifiée"
 			/>
 		</div>
 
-		<!-- Section 2 : Tableau Comparatif Synthétique -->
-		<div id="comparatif">
-			<TableauComparatif 
-				produits={top3} 
-				titreSection="Tableau Récapitulatif : Comparaison Directe du Top 3"
-				sousTitreSection="Caractéristiques techniques et vérification de disponibilité en temps réel"
-			/>
-		</div>
-
-		<!-- Section 3 : Badges de Réassurance & Protocole d'Évaluation -->
+		<!-- Section 2 : Badges de Réassurance & Protocole d'Évaluation -->
 		<BadgeConfiance titre="Notre Protocole d'Évaluation des Onduleurs Pur Sinus" />
 	</div>
 
@@ -278,7 +272,7 @@ const structuredData = {
 						href={`/comparatifs/${slugify(cat)}/`} 
 						class="bg-slate-900/90 border border-slate-800 hover:border-blue-500 hover:text-blue-400 px-5 py-3 rounded-xl text-xs sm:text-sm font-bold shadow-xs transition-all duration-200"
 					>
-						{cat}
+						{formatCategoryLabel(cat)}
 					</a>
 				))}
 			</div>

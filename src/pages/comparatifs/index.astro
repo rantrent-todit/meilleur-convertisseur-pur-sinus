@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { slugify } from '../../utils/slugify';
+import { formatCategoryLabel } from '../../utils/formatCategory';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 
 const produits = await getCollection('produits');
@@ -10,16 +11,13 @@ const categoriesCollection = await getCollection('categories');
 // Extraction unique des catégories depuis les produits et la collection categories
 const categoriesNoms = [...new Set([...produits.flatMap(p => p.data.categories), ...categoriesCollection.map(c => c.id.replace(/\.md$/, ''))])].sort();
 
-// Enrichissement avec les données de la collection categories si elles existent
+// Enrichissement dynamique
 const categoriesData = categoriesNoms.map(nom => {
 	const slug = slugify(nom);
-	const content = categoriesCollection.find(c => c.id === slug || c.id === `${slug}.md`);
 	return {
 		nom,
 		slug,
-		titre: content?.data.titre_h1 || content?.data.titre_seo || `Comparatif : Meilleur ${nom}`,
-		description: content?.data.description_seo || content?.data.texte_presentation?.substring(0, 140),
-		count: produits.filter(p => p.data.categories.includes(nom)).length
+		titre: formatCategoryLabel(slug),
 	};
 });
 
@@ -36,7 +34,7 @@ const description = "Découvrez nos comparatifs détaillés par catégorie : pui
 				Nos comparatifs de convertisseurs Pur Sinus
 			</h1>
 			<p class="text-lg text-slate-600 max-w-3xl">
-				Sélectionnez une catégorie ci-dessous pour accéder au Top 10 des produits recommandés par nos experts selon vos besoins spécifiques.
+				Sélectionnez une catégorie ci-dessous pour accéder au top des produits recommandés par nos experts selon vos besoins spécifiques.
 			</p>
 		</header>
 
@@ -52,19 +50,11 @@ const description = "Découvrez nos comparatifs détaillés par catégorie : pui
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
 							</svg>
 						</div>
-						<h2 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+						<h2 class="text-xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">
 							{cat.titre}
 						</h2>
-						{cat.description && (
-							<p class="text-slate-600 text-sm mb-3 line-clamp-2 leading-relaxed">
-								{cat.description}
-							</p>
-						)}
-						<p class="text-slate-500 text-xs font-semibold uppercase tracking-wider">
-							{cat.count} modèle{cat.count > 1 ? 's' : ''} analysé{cat.count > 1 ? 's' : ''}
-						</p>
 					</div>
-					<div class="mt-6 flex items-center text-blue-600 font-bold text-sm">
+					<div class="mt-4 flex items-center text-blue-600 font-bold text-sm">
 						Voir le comparatif
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7" />
