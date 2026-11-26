@@ -28,7 +28,7 @@ const produits = defineCollection({
       taux_positif: z.string().optional().default("88%"),
       points_forts_utilisateurs: z.array(z.string()).optional(),
       points_vigilance_utilisateurs: z.array(z.string()).optional(),
-    })).optional(),
+    }).optional(),
   }),
 });
 
