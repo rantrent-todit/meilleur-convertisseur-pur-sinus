@@ -1,13 +1,13 @@
 ---
 titre: "Green Cell 300W/600W Pur Sinus 12V 220V"
-titre_h1: "Avis Green Cell 300W/600W Pur Sinus 12V 220V"
 description_courte: "Le best-seller compact idéal pour ordinateur portable, glacière et petits appareils en voiture ou van avec prise allume-cigare et pinces batterie."
 description_longue: "Test complet du convertisseur Green Cell 300W pur sinus : encombrement mini, double câble allume-cigare et pinces batterie, rendement thermique et pureté du signal sinusoïdal pour appareils électroniques sensibles."
-categories: ["convertisseur 12v 220v pur sinus"]
+categories: ["convertisseur 12v 220v pur sinus", "convertisseur 12v 230v pur sinus"]
 image_url: "https://m.media-amazon.com/images/I/61Ocd1gYJ+L._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0744LR2DZ/?tag=amazonwp0b-21"
-meta_title: "Avis Green Cell 300W/600W Pur Sinus : Test & Meilleur Prix"
-meta_description: "Avis d'expert sur le convertisseur Green Cell 300W/600W pur sinus 12V 220V : format ultra-compact, double connectique, silence et fiabilité garantie."
+titre_h1: "Avis Green Cell 300W/600W Pur Sinus 12V"
+meta_title: "Avis Green Cell 300W/600W Pur Sinus 12V : Test et Prix"
+meta_description: "Avis complet sur le Green Cell 300W/600W Pur Sinus 12V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 
 ## Introduction et positionnement
