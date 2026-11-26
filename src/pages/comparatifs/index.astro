@@ -7,17 +7,18 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const produits = await getCollection('produits');
 const categoriesCollection = await getCollection('categories');
 
-// Extraction unique des catégories depuis les produits
-const categoriesNoms = [...new Set(produits.flatMap(p => p.data.categories))].sort();
+// Extraction unique des catégories depuis les produits et la collection categories
+const categoriesNoms = [...new Set([...produits.flatMap(p => p.data.categories), ...categoriesCollection.map(c => c.id.replace(/\.md$/, ''))])].sort();
 
 // Enrichissement avec les données de la collection categories si elles existent
 const categoriesData = categoriesNoms.map(nom => {
 	const slug = slugify(nom);
-	const content = categoriesCollection.find(c => c.id === slug);
+	const content = categoriesCollection.find(c => c.id === slug || c.id === `${slug}.md`);
 	return {
 		nom,
 		slug,
-		titre: content?.data.titre_seo || `Comparatif : Meilleur ${nom}`,
+		titre: content?.data.titre_h1 || content?.data.titre_seo || `Comparatif : Meilleur ${nom}`,
+		description: content?.data.description_seo || content?.data.texte_presentation?.substring(0, 140),
 		count: produits.filter(p => p.data.categories.includes(nom)).length
 	};
 });
@@ -52,10 +53,15 @@ const description = "Découvrez nos comparatifs détaillés par catégorie : pui
 							</svg>
 						</div>
 						<h2 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
-							{cat.nom}
+							{cat.titre}
 						</h2>
-						<p class="text-slate-500 text-sm italic">
-							{cat.count} produit{cat.count > 1 ? 's' : ''} analysé{cat.count > 1 ? 's' : ''}
+						{cat.description && (
+							<p class="text-slate-600 text-sm mb-3 line-clamp-2 leading-relaxed">
+								{cat.description}
+							</p>
+						)}
+						<p class="text-slate-500 text-xs font-semibold uppercase tracking-wider">
+							{cat.count} modèle{cat.count > 1 ? 's' : ''} analysé{cat.count > 1 ? 's' : ''}
 						</p>
 					</div>
 					<div class="mt-6 flex items-center text-blue-600 font-bold text-sm">

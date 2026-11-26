@@ -3,7 +3,7 @@ titre: "GIANDEL 3000W 12V 220V Pur Sinus LCD"
 titre_h1: "Avis GIANDEL 3000W 12V 220V Pur Sinus LCD"
 description_courte: "Découvrez notre test vérifié du convertisseur Giandel 3000W 12V 220V pur sinus. Analyse technique, compatibilité LiFePO4 et retour d'expérience."
 description_longue: "Examen technique et retour d'expérience complet sur le convertisseur de tension Giandel 3000W Pur Sinus. Capable d'encaisser jusqu'à 6100W en crête, cet onduleur autonome s'adresse aux camping-cars, fourgons aménagés et installations solaires en site isolé exigeant une alimentation électrique stable et sécurisée."
-categories: ["convertisseur-pur-sinus-camping-car"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/816b9VK4GDL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0DNQ9S4DB/?tag=amazonwp0b-21"
 meta_title: "Avis GIANDEL 3000W 12V 220V Pur Sinus LCD"

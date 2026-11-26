@@ -2,7 +2,7 @@
 titre: "Green Cell 3000W/6000W Pur Sinus 12V 220V"
 description_courte: "Puissance continue colossale de 3000W (6000W crête) avec onde sinusoïdale pure pour alimenter gros électroménager, micro-ondes, clim et outillage lourd."
 description_longue: "Test approfondi du convertisseur Green Cell 3000W pur sinus 12V 220V : performances de crête à 6000W pour fortes charges inductives, double prise secteur, écran de contrôle et système de refroidissement haute efficacité."
-categories: ["convertisseur-12v-220v-pur-sinus"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/81y+vEeAheL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07S521SPW/?tag=amazonwp0b-21"
 titre_h1: "Avis Green Cell 3000W/6000W Pur Sinus 12"

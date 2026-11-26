@@ -3,7 +3,7 @@ titre: "Victron Phoenix 1200VA 12V 230V VE.Direct"
 titre_h1: "Avis Victron Phoenix 1200VA 12V 230V VE.Direct"
 description_courte: "Analyse experte et test du convertisseur Victron Energy Phoenix 1200VA 12V Pur Sinus VE.Direct : fiabilité, puissance continue et autonomie."
 description_longue: "Découvrez notre test vérifié complet du convertisseur Victron Energy 1200VA 12V vers 230V avec port VE.Direct. Analyse technique de la pureté du signal, gestion des crêtes au démarrage, efficacité du mode ECO et retour d'expérience terrain détaillé pour camping-car, bateau et site isolé."
-categories: ["convertisseur-pur-sinus-camping-car"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/61Tf9ligugL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B07JG23Z7D/?tag=amazonwp0b-21"
 meta_title: "Avis Victron Phoenix 1200VA 12V 230V VE.Direct"

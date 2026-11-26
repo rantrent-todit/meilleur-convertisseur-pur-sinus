@@ -5,7 +5,7 @@ description_courte: "Test et analyse de l'EDECOA 24V 1500W Pur Sinus Télécomma
 description_longue: "Découvrez notre banc d'essai de l'EDECOA 24V 1500W Pur Sinus Télécommande. Positionné sur le segment économique avec une note de 4 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/81dOxnr465L._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B08P5LN56H/?tag=amazonwp0b-21"
-categories: ["convertisseur-24v-220v-pur-sinus"]
+categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Économique"
     note: 4

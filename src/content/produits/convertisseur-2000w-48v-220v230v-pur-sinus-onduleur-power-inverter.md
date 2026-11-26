@@ -3,7 +3,7 @@ titre: "Convertisseur Pur Sinus 2000W 48V-230V"
 titre_h1: "Avis Convertisseur Pur Sinus 2000W 48V-230V"
 description_courte: "Test complet du convertisseur pur sinus 2000W 48V vers 220V/230V. Analyse technique, rendement solaire, pic 4000W et avis vérifié d'experts."
 description_longue: "Découvrez notre test vérifié du convertisseur de tension 2000W 48V pur sinus. Conçu pour les installations solaires, les véhicules aménagés et les sites isolés, ce modèle allie simplicité d'usage, puissance crête de 4000W et connectique européenne standard."
-categories: ["convertisseur-pur-sinus-camping-car"]
+categories: ["convertisseur-48v-220v-pur-sinus"]
 image_url: "https://m.media-amazon.com/images/I/81WJyt-UtoL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0GYYNYPDT/?tag=amazonwp0b-21"
 meta_title: "Avis Convertisseur Pur Sinus 2000W 48V-230V"

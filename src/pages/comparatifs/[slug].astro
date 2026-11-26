@@ -4,10 +4,16 @@ import { getCollection, render } from 'astro:content';
 import { slugify } from '../../utils/slugify';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import CarteApercu from '../../components/CarteApercu.astro';
+import BlocVerdictTop3 from '../../components/BlocVerdictTop3.astro';
+import TableauComparatif from '../../components/TableauComparatif.astro';
+import BadgeConfiance from '../../components/BadgeConfiance.astro';
 
 export async function getStaticPaths() {
 	const produits = await getCollection('produits');
-	const categoriesNoms = [...new Set(produits.flatMap(p => p.data.categories))];
+	const categoriesCollection = await getCollection('categories');
+	const catsFromProds = produits.flatMap(p => p.data.categories);
+	const catsFromCollection = categoriesCollection.map(c => c.id.replace(/\.md$/, ''));
+	const categoriesNoms = [...new Set([...catsFromProds, ...catsFromCollection])];
 	
 	const paths = categoriesNoms.map(nom => {
 		const slug = slugify(nom);
@@ -24,91 +30,183 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const { nomCat } = Astro.props;
 
-const produits = (await getCollection('produits'))
-	.filter(p => p.data.categories.includes(nomCat))
-	.slice(0, 10); // Top 10
-
 const categoriesCollection = await getCollection('categories');
 const content = categoriesCollection.find(c => c.id === slug || c.id === `${slug}.md`);
+
+const rawProduits = (await getCollection('produits'))
+	.filter(p => p.data.categories.includes(nomCat) || p.data.categories.includes(slug));
+
+// Trier les produits : les mieux notés en premier
+const produits = rawProduits.sort((a, b) => {
+	const noteA = a.data.satisfaction_globale?.note_moyenne || 4.0;
+	const noteB = b.data.satisfaction_globale?.note_moyenne || 4.0;
+	if (noteB !== noteA) return noteB - noteA;
+	const avisA = a.data.satisfaction_globale?.total_avis || 0;
+	const avisB = b.data.satisfaction_globale?.total_avis || 0;
+	return avisB - avisA;
+});
 
 const rendered = content ? await render(content) : null;
 const Content = rendered?.Content;
 
-const title = content?.data.titre_seo || `Meilleur ${nomCat} : Comparatif et Top 10 des modèles`;
+const title = content?.data.titre_seo || `Meilleur ${nomCat} : Comparatif et Top Modèles`;
+const h1Title = content?.data.titre_h1 || title;
+const nomCatAffichage = content?.data.titre_h1 || nomCat;
 const description = content?.data.description_seo || content?.data.texte_presentation?.substring(0, 160) || `Découvrez notre sélection des meilleurs ${nomCat}. Comparatif complet et guide pour faire le bon choix au meilleur prix.`;
+
+// JSON-LD ItemList (Top 3)
+const top3 = produits.slice(0, 3);
+const itemListJsonLd = top3.length > 0 ? {
+	"@context": "https://schema.org",
+	"@type": "ItemList",
+	"name": `Top 3 ${nomCat}`,
+	"numberOfItems": top3.length,
+	"itemListElement": top3.map((p, index) => ({
+		"@type": "ListItem",
+		"position": index + 1,
+		"name": p.data.titre,
+		"url": `https://meilleur-convertisseur-pur-sinus.fr/avis/${p.id}/`
+	}))
+} : null;
 
 // JSON-LD FAQ
 const faqJsonLd = content?.data.faq ? {
 	"@context": "https://schema.org",
 	"@type": "FAQPage",
-	"mainEntity": content.data.faq.map(f => ({
-		"@type": "Question",
-		"name": f.question,
-		"acceptedAnswer": {
-			"@type": "Answer",
-			"text": f.reponse
-		}
-	}))
+	"mainEntity": content.data.faq.map(f => {
+		const q = (f as any).question || (f as any).q || "";
+		const r = (f as any).reponse || (f as any).r || "";
+		return {
+			"@type": "Question",
+			"name": q,
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": r
+			}
+		};
+	})
 } : null;
 ---
 
 <Layout title={title} description={description}>
+	{itemListJsonLd && <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} />}
 	{faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
 	
 	<div class="container mx-auto px-4 py-8">
 		<Breadcrumb items={[
 			{ label: "Tous les comparatifs", href: "/comparatifs/" },
-			{ label: nomCat }
+			{ label: nomCatAffichage }
 		]} />
 
-		<header class="mb-12">
-			<h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
-				{title}
+		<header class="mb-10 max-w-4xl">
+			<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-black uppercase tracking-wider mb-4">
+				<svg class="w-3.5 h-3.5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+				</svg>
+				Comparatif & Guide d'Achat Spécialisé
+			</div>
+			<h1 class="text-3xl md:text-5xl font-black text-slate-900 mb-6 leading-tight tracking-tight">
+				{h1Title}
 			</h1>
 			{content?.data.texte_presentation && (
-				<div class="prose prose-slate prose-lg max-w-none mb-10 text-slate-600">
+				<div class="prose prose-slate prose-lg max-w-none text-slate-600 leading-relaxed mb-6">
 					<p>{content.data.texte_presentation}</p>
 				</div>
 			)}
 			{!content && (
-				<p class="text-lg text-slate-600 max-w-3xl">
-					Voici notre sélection rigoureuse des meilleurs modèles de la catégorie <strong>{nomCat}</strong>. Nous avons analysé les performances, la fiabilité et les retours utilisateurs pour vous proposer ce Top {produits.length}.
+				<p class="text-lg text-slate-600 max-w-3xl leading-relaxed">
+					Voici notre sélection rigoureuse des modèles les plus fiables de la catégorie <strong>{nomCatAffichage}</strong>. Nous avons analysé la stabilité de tension, le rendement et les retours d'expérience vérifiés pour vous guider.
 				</p>
 			)}
 		</header>
 
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-			{produits.map((produit, index) => (
-				<div class="relative mt-4">
-					<div class="absolute -top-6 -left-4 w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-xl flex items-center justify-center font-black text-xl z-10 shadow-lg border-4 border-slate-50 rotate-3">
-						#{index + 1}
-					</div>
-					<CarteApercu produit={produit} />
-				</div>
-			))}
-		</div>
+		<!-- PODIUM TOP 3 DE CONVERSION -->
+		{produits.length >= 2 && (
+			<BlocVerdictTop3 
+				produits={produits}
+				titre={`Podium : ${nomCatAffichage}`}
+				sousTitre="Les modèles incontournables sélectionnés pour leur fiabilité, rendement et satisfaction client vérifiée"
+			/>
+		)}
 
+		<!-- TABLEAU COMPARATIF INTERACTIF -->
+		{produits.length > 0 && (
+			<TableauComparatif 
+				produits={produits}
+				limit={produits.length >= 5 ? 5 : 3}
+				titreSection={`Tableau Comparatif : ${nomCatAffichage}`}
+				sousTitreSection="Comparaison directe des caractéristiques clés, puissances de crête et tarifs vérifiés"
+			/>
+		)}
+
+		<!-- BADGE DE RÉASSURANCE / CONFIANCE -->
+		<BadgeConfiance />
+
+		<!-- GUIDE D'ACHAT COMPLET & CONTENU ÉDITORIAL -->
 		{Content && (
-			<section class="mt-20 prose prose-slate prose-lg max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-100 ring-1 ring-slate-900/5">
+			<section class="my-16 prose prose-slate prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-slate-200/90 ring-1 ring-slate-900/5">
 				<Content />
 			</section>
 		)}
 
-		{content?.data.faq && (
-			<section class="mt-20 py-16 bg-white rounded-2xl shadow-sm border border-slate-100 ring-1 ring-slate-900/5 p-8 md:p-12">
-				<h2 class="text-3xl font-bold text-slate-900 mb-10 flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-					</svg>
-					Foire aux questions sur les {nomCat}
-				</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-					{content.data.faq.map(f => (
-						<div>
-							<h3 class="text-lg font-bold text-slate-900 mb-3">{f.question}</h3>
-							<p class="text-slate-600 leading-relaxed">{f.reponse}</p>
+		<!-- GRILLE DE TOUS LES MODÈLES DE LA CATÉGORIE -->
+		{produits.length > 0 && (
+			<section class="my-16">
+				<div class="flex items-center justify-between mb-8 pb-4 border-b border-slate-200">
+					<div>
+						<h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight !my-0">
+							Toutes les références évaluées en {nomCat}
+						</h2>
+						<p class="text-sm text-slate-500 mt-1">
+							Fiches techniques approfondies, tests et retours d'acquéreurs certifiés
+						</p>
+					</div>
+					<span class="text-xs font-bold text-slate-600 bg-slate-100 border border-slate-200 px-3.5 py-1.5 rounded-full">
+						{produits.length} modèle{produits.length > 1 ? 's' : ''}
+					</span>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					{produits.map((produit, index) => (
+						<div class="relative mt-4">
+							<div class="absolute -top-5 -left-3 w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 text-white rounded-xl flex items-center justify-center font-black text-lg z-10 shadow-md border-2 border-white">
+								#{index + 1}
+							</div>
+							<CarteApercu produit={produit} />
 						</div>
 					))}
+				</div>
+			</section>
+		)}
+
+		<!-- FAQ STRUCTURÉE (SCHEMA.ORG FAQPAGE) -->
+		{content?.data.faq && content.data.faq.length > 0 && (
+			<section class="my-16 py-12 px-6 md:px-12 bg-slate-50 rounded-3xl border border-slate-200">
+				<div class="text-center max-w-2xl mx-auto mb-10">
+					<span class="text-xs font-black uppercase tracking-wider text-blue-600 bg-blue-100 px-3 py-1 rounded-full inline-block mb-3">
+						Questions Fréquentes
+					</span>
+					<h2 class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight !my-0">
+						Foire aux questions sur les {nomCat}
+					</h2>
+					<p class="text-sm text-slate-600 mt-2">
+						Nos experts répondent aux interrogations techniques courantes pour réussir votre installation.
+					</p>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+					{content.data.faq.map(f => {
+						const q = (f as any).question || (f as any).q || "";
+						const r = (f as any).reponse || (f as any).r || "";
+						return (
+							<div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
+								<h3 class="text-base font-bold text-slate-900 mb-2 flex items-start gap-2">
+									<span class="text-blue-600 font-black">?</span>
+									<span>{q}</span>
+								</h3>
+								<p class="text-sm text-slate-600 leading-relaxed pl-4">{r}</p>
+							</div>
+						);
+					})}
 				</div>
 			</section>
 		)}

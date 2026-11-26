@@ -4,7 +4,7 @@ description_courte: "Analyse complète de l'Inverter 24V 3000W pur sinus : puiss
 description_longue: "Découvrez notre test complet de l'Inverter 24V 3000W pur sinus. Conçu pour les parcs batteries 24V de camions, chalets et systèmes solaires, il délivre un courant domestique irréprochable avec un rendement de 92%."
 image_url: "https://m.media-amazon.com/images/I/71mQWYflu4L._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0H2M7MTQY/?tag=amazonwp0b-21"
-categories: ["convertisseur-12v-220v-1000w-pur-sinus"]
+categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-3000w-pur-sinus", "convertisseur-24v-220v-6000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Camion & Solaire"
     note: 5

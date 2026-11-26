@@ -3,7 +3,7 @@ titre: "GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande"
 titre_h1: "Avis GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande"
 description_courte: "Test complet du convertisseur Giandel 1000W Pur Sinus 12V vers 220V avec écran LCD et télécommande : puissance réelle, stabilité et avis terrain."
 description_longue: "Analyse approfondie et test vérifié de l'onduleur pur sinus Giandel 1000W 12V 220V. Conception en aluminium bleu, écran LCD multifonction, télécommande filaire, double prise 230V et comportement sous fortes charges inductives et résistives."
-categories: ["convertisseur-pur-sinus-camping-car"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/81MTWfFuZaL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0BBVN4X1J/?tag=amazonwp0b-21"
 meta_title: "Avis GIANDEL 1000W Pur Sinus 12V-220V LCD & Télécommande"

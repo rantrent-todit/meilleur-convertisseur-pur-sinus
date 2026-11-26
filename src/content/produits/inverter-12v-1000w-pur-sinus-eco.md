@@ -5,7 +5,7 @@ description_courte: "Test et analyse de l'Inverter 12V 1000W Pur Sinus Éco LCD 
 description_longue: "Découvrez notre banc d'essai de l'Inverter 12V 1000W Pur Sinus Éco LCD. Positionné sur le segment économique avec une note de 4 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71OKyOMYI3L._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B09MN267DS/?tag=amazonwp0b-21"
-categories: ["convertisseur-12v-220v-1000w-pur-sinus","convertisseur-12v-220v-pur-sinus"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-1000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Économique"
     note: 4

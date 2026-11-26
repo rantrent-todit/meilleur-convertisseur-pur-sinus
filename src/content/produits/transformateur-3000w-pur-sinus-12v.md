@@ -4,7 +4,7 @@ description_courte: "Analyse approfondie du Transformateur Pur Sinus 3000W 12V 2
 description_longue: "Découvrez notre test complet du Transformateur Pur Sinus 3000W 12V 220V Crête 6000W. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71rbyC7vNbL._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0CQL4ZH8Q/?tag=amazonwp0b-21"
-categories: ["convertisseur-12v-220v-1000w-pur-sinus"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 avis_clients:
   - auteur: "Utilisateur Certifié"
     note: 5

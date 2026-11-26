@@ -5,7 +5,7 @@ description_courte: "Test et analyse de l'Inverter 24V 3000W Pur Sinus Camion É
 description_longue: "Découvrez notre banc d'essai de l'Inverter 24V 3000W Pur Sinus Camion Éco. Positionné sur le segment économique avec une note de 3.9 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71Smq+RKT4L._AC_SL1500_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0F9PJQ8VC/?tag=amazonwp0b-21"
-categories: ["convertisseur-12v-220v-1000w-pur-sinus"]
+categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 
 
 meta_title: "Avis Inverter 24V 3000W Pur Sinus Camion : Test et Prix"

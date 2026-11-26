@@ -3,7 +3,7 @@ titre: "Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
 titre_h1: "Avis Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
 description_courte: "Test vérifié du convertisseur pur sinus 2000W 12V-220V avec écran LCD et télécommande : puissance réelle, stabilité du signal et avis terrain complet."
 description_longue: "Découvrez notre analyse détaillée et notre test vérifié du convertisseur de tension 12V 220V pur sinus 2000W. Conçu pour les vans, campings-cars, caravanes et installations solaires autonomes, cet appareil intègre un double affichage de contrôle, des prises européennes standard et des ports USB modernes pour une indépendance énergétique optimale."
-categories: ["convertisseur-pur-sinus-camping-car"]
+categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71LFsv75n2L._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0DNDX1JWG/?tag=amazonwp0b-21"
 meta_title: "Avis Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
