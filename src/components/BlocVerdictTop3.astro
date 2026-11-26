@@ -20,8 +20,8 @@ interface Props {
 
 const { 
   produits = [],
-  titre = "Le Podium : Les 3 Meilleurs Convertisseurs Pur Sinus",
-  sousTitre = "Notre sélection des 3 modèles les plus fiables, disponibles et vérifiés en stock"
+  titre,
+  sousTitre = "Les 3 modèles incontournables sélectionnés pour leur fiabilité de marque, leur rendement et la satisfaction vérifiée"
 } = Astro.props;
 
 const top3 = produits.slice(0, 3);
@@ -39,12 +39,16 @@ const third = top3[2] || top3[0];
       <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
       Verdict Immédiat de la Rédaction
     </span>
-    <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 tracking-tight !my-0">
-      {titre}
-    </h2>
-    <p class="text-slate-600 text-sm sm:text-base mt-2">
-      {sousTitre}
-    </p>
+    {titre && (
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 tracking-tight !my-0">
+        {titre}
+      </h2>
+    )}
+    {sousTitre && (
+      <p class="text-slate-600 text-sm sm:text-base mt-2">
+        {sousTitre}
+      </p>
+    )}
   </div>
 
   <!-- Grille 3 colonnes -->

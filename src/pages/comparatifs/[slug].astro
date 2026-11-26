@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { slugify } from '../../utils/slugify';
+import { formatCategoryLabel } from '../../utils/formatCategory';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import BlocVerdictTop3 from '../../components/BlocVerdictTop3.astro';
 import BadgeConfiance from '../../components/BadgeConfiance.astro';
@@ -111,14 +112,15 @@ const Content = rendered?.Content;
 
 const title = content?.data.titre_seo || `Meilleur ${nomCat} : Comparatif et Top Modèles`;
 const h1Title = content?.data.titre_h1 || title;
-const nomCatAffichage = content?.data.titre_h1 || nomCat;
+const catLabel = formatCategoryLabel(slug || nomCat);
+const nomCatAffichage = catLabel;
 const description = content?.data.description_seo || content?.data.texte_presentation?.substring(0, 160) || `Découvrez notre sélection des meilleurs ${nomCat}. Comparatif complet et guide pour faire le bon choix au meilleur prix.`;
 
 // JSON-LD ItemList (Top 3)
 const itemListJsonLd = produits.length > 0 ? {
 	"@context": "https://schema.org",
 	"@type": "ItemList",
-	"name": `Top 3 ${nomCat}`,
+	"name": `Top 3 ${catLabel}`,
 	"numberOfItems": produits.length,
 	"itemListElement": produits.map((p, index) => ({
 		"@type": "ListItem",
@@ -183,7 +185,6 @@ const faqJsonLd = content?.data.faq ? {
 		{produits.length >= 2 && (
 			<BlocVerdictTop3 
 				produits={produits}
-				titre={`Podium : ${nomCatAffichage}`}
 				sousTitre="Les 3 modèles incontournables sélectionnés pour leur fiabilité de marque, leur rendement et la satisfaction vérifiée"
 			/>
 		)}
