@@ -31,6 +31,21 @@ const similaires = tousProduits
 const title = produit.data.meta_title || `Avis ${produit.data.titre} : Tout savoir avant d'acheter`;
 const description = produit.data.meta_description || produit.data.description_courte;
 
+const brandNames = [
+  'Victron Energy', 'Victron', 'Renogy', 'GIANDEL', 'EDECOA', 'Green Cell', 'DATOUBOSS', 'VEVOR', 'OLTEANP',
+  'NOVOPAL', 'Novopal', 'SUDOKEJI', 'JARXIOKE', 'FEITEENG', 'PVBEYORND', 'TAGEEBLU', 'XWJNE', 'MINGHAOXIN', 'Yinleader'
+];
+
+function detectBrand(t: string): string {
+  for (const b of brandNames) {
+    if (t.toLowerCase().startsWith(b.toLowerCase()) || t.toLowerCase().includes(b.toLowerCase())) {
+      return b.startsWith('Victron') ? 'Victron Energy' : b;
+    }
+  }
+  return t.split(' ')[0] || 'Marque Reconnue';
+}
+const detectedBrand = detectBrand(produit.data.titre);
+
 // JSON-LD Product & Review
 const jsonLd = {
   "@context": "https://schema.org/",
@@ -40,7 +55,7 @@ const jsonLd = {
   "description": produit.data.description_courte,
   "brand": {
     "@type": "Brand",
-    "name": "Amazon"
+    "name": detectedBrand
   },
   "review": {
     "@type": "Review",

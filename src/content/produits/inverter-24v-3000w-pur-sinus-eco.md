@@ -1,6 +1,6 @@
 ---
-titre: "Inverter 24V 3000W Pur Sinus Camion Éco"
-titre_h1: "Avis Inverter 24V 3000W Pur Sinus Camion"
+titre: "TAGEEBLU 3000W Pur Sinus 24V Camion"
+titre_h1: "Avis TAGEEBLU 3000W Pur Sinus 24V Camion"
 description_courte: "Test et analyse de l'Inverter 24V 3000W Pur Sinus Camion Éco : une alternative accessible offrant 3000W de puissance continue et une vraie onde pure pour petit budget."
 description_longue: "Découvrez notre banc d'essai de l'Inverter 24V 3000W Pur Sinus Camion Éco. Positionné sur le segment économique avec une note de 3.9 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71Smq+RKT4L._AC_SL1500_.jpg"
@@ -9,8 +9,8 @@ prix: "179,88"
 categories: ["convertisseur-24v-220v-pur-sinus", "convertisseur-24v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 
 
-meta_title: "Avis Inverter 24V 3000W Pur Sinus Camion : Test et Prix"
-meta_description: "Avis sur le Inverter 24V 3000W Pur Sinus Camion. Analyse des performances, atouts économiques et limites pour votre installation autonome."
+meta_title: "Avis TAGEEBLU 3000W Pur Sinus 24V : Test et Prix"
+meta_description: "Avis complet et test du TAGEEBLU 3000W Pur Sinus 24V. Conçu pour camions et véhicules industriels, mesures de puissance et notre verdict."
 avis_clients:
   - auteur: "CG"
     note: 5

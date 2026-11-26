@@ -1,5 +1,5 @@
 ---
-titre: "Inverter 1500W Pur Sinus 12V Télécommande LCD"
+titre: "OLTEANP 1500W Pur Sinus 12V Télécommande LCD"
 description_courte: "Analyse approfondie du Inverter 1500W/3000W Pur Sinus Télécommande LCD : caractéristiques techniques, puissance continue de 1500W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du Inverter 1500W/3000W Pur Sinus Télécommande LCD. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 3000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/61SNMjgazGL._AC_SL1500_.jpg"
@@ -30,9 +30,9 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis Inverter 1500W Pur Sinus 12V Télécommande LCD"
-meta_title: "Avis Inverter 1500W Pur Sinus 12V Télécommande LCD"
-meta_description: "Avis complet sur le Inverter 1500W/3000W Pur Sinus Télé. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+titre_h1: "Avis OLTEANP 1500W Pur Sinus 12V Télécommande"
+meta_title: "Avis OLTEANP 1500W Pur Sinus 12V : Test et Prix"
+meta_description: "Avis complet sur le convertisseur OLTEANP 1500W Pur Sinus 12V. Découvrez notre test détaillé, télécommande filaire et notre verdict expert."
 ---
 
 Le convertisseur de tension **Inverter 1500W/3000W Pur Sinus Télécommande LCD** s'impose comme une référence technique pour convertir une alimentation continue basse tension en courant alternatif domestique parfaitement régulé. Conçu pour répondre aux exigences des installations autonomes, des véhicules de loisirs, des fourgons aménagés et des sites solaires isolés, cet onduleur met l'accent sur la qualité du signal électrique et la protection des équipements raccordés.

@@ -1,14 +1,14 @@
 ---
-titre: "Convertisseur Pur Sinus 2000W 48V-230V"
-titre_h1: "Avis Convertisseur Pur Sinus 2000W 48V-230V"
+titre: "MINGHAOXIN 2000W Pur Sinus 48V-230V"
+titre_h1: "Avis MINGHAOXIN 2000W Pur Sinus 48V 230V"
 description_courte: "Test complet du convertisseur pur sinus 2000W 48V vers 220V/230V. Analyse technique, rendement solaire, pic 4000W et avis vérifié d'experts."
 description_longue: "Découvrez notre test vérifié du convertisseur de tension 2000W 48V pur sinus. Conçu pour les installations solaires, les véhicules aménagés et les sites isolés, ce modèle allie simplicité d'usage, puissance crête de 4000W et connectique européenne standard."
 categories: ["convertisseur-48v-220v-pur-sinus"]
 image_url: "https://m.media-amazon.com/images/I/81WJyt-UtoL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0GYYNYPDT/?tag=amazonwp0b-21"
 prix: "199,99"
-meta_title: "Avis Convertisseur Pur Sinus 2000W 48V-230V"
-meta_description: "Avis complet et test vérifié sur Convertisseur 2000W 48V 220V230V Pur Sinus Onduleur Power Inverter. Performances réelles, points forts et notre verdict."
+meta_title: "Avis MINGHAOXIN 2000W Pur Sinus 48V 230V"
+meta_description: "Avis complet sur le MINGHAOXIN 2000W Pur Sinus 48V 230V. Découvrez notre test détaillé, rendement élevé et compatibilité solaire."
 avis_clients:
   - auteur: "Bertille T."
     note: 5

@@ -1,5 +1,5 @@
 ---
-titre: "Convertisseur Pur Sinus 3000W 12V 220V"
+titre: "NOVOPAL 3000W Pur Sinus 12V 220V Écran LCD"
 description_courte: "Analyse approfondie du Transformateur Pur Sinus 3000W 12V 220V Crête 6000W : caractéristiques techniques, puissance continue de 3000W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du Transformateur Pur Sinus 3000W 12V 220V Crête 6000W. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 6000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/71rbyC7vNbL._AC_SL1500_.jpg"
@@ -30,9 +30,9 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis Convertisseur Pur Sinus 3000W 12V 220V"
-meta_title: "Avis Convertisseur Pur Sinus 3000W 12V 220V"
-meta_description: "Avis complet sur le Transformateur Pur Sinus 3000W 12V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+titre_h1: "Avis NOVOPAL 3000W Pur Sinus 12V 220V"
+meta_title: "Avis NOVOPAL 3000W Pur Sinus 12V 220V"
+meta_description: "Avis complet sur le NOVOPAL 3000W Pur Sinus 12V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
 ---
 
 Le convertisseur de tension **Transformateur Pur Sinus 3000W 12V 220V Crête 6000W** s'impose comme une référence technique pour convertir une alimentation continue basse tension en courant alternatif domestique parfaitement régulé. Conçu pour répondre aux exigences des installations autonomes, des véhicules de loisirs, des fourgons aménagés et des sites solaires isolés, cet onduleur met l'accent sur la qualité du signal électrique et la protection des équipements raccordés.

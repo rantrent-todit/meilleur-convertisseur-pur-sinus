@@ -1,6 +1,6 @@
 ---
-titre: "Inverter 12V 1000W Pur Sinus Éco LCD"
-titre_h1: "Avis Inverter 12V 1000W Pur Sinus Éco"
+titre: "SUDOKEJI 1000W Pur Sinus 12V 220V Éco LCD"
+titre_h1: "Avis SUDOKEJI 1000W Pur Sinus 12V Éco"
 description_courte: "Test et analyse de l'Inverter 12V 1000W Pur Sinus Éco LCD : une alternative accessible offrant 1000W de puissance continue et une vraie onde pure pour petit budget."
 description_longue: "Découvrez notre banc d'essai de l'Inverter 12V 1000W Pur Sinus Éco LCD. Positionné sur le segment économique avec une note de 4 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71OKyOMYI3L._AC_SL1500_.jpg"
@@ -31,8 +31,8 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Borniers arrière nécessitant un serrage rigoureux, échauffement notable au-delà de 800W"
     - "Marge de sécurité conseillée : ne pas exploiter à 100% en continu"
-meta_title: "Avis Inverter 12V 1000W Pur Sinus Éco : Test et Prix"
-meta_description: "Avis sur le Inverter 12V 1000W Pur Sinus Éco. Analyse des performances, atouts économiques et limites pour votre installation autonome."
+meta_title: "Avis SUDOKEJI 1000W Pur Sinus 12V : Test et Prix"
+meta_description: "Avis complet et test du SUDOKEJI 1000W Pur Sinus 12V 220V. Rendement, format compact et notre verdict pour votre véhicule ou camping-car."
 ---
 
 Le convertisseur de tension **Inverter 12V 1000W Pur Sinus Éco LCD** s'adresse directement aux consommateurs qui recherchent les bienfaits techniques d'une onde sinusoïdale pure sans devoir allouer le budget conséquent exigé par les marques professionnelles haut de gamme. Positionné comme une alternative économique éprouvée, ce modèle cumule plus de **653 retours d'acquéreurs** sur le marché pour une note moyenne de **4 sur 5**.

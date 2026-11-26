@@ -1,5 +1,5 @@
 ---
-titre: "Convertisseur Pur Sinus 48V 220V 2000W"
+titre: "FEITEENG 2000W Pur Sinus 48V 220V"
 description_courte: "Analyse approfondie du Inverter Pur Sinus 48V 220V 2000W/4000W Transformateur : caractéristiques techniques, puissance continue de 2000W, sécurité et retour d'expérience complet."
 description_longue: "Découvrez notre test complet du Inverter Pur Sinus 48V 220V 2000W/4000W Transformateur. Avec une onde sinusoïdale pure de haute fidélité (THD < 3%) et une puissance de crête de 4000W, ce convertisseur assure une alimentation stable et silencieuse pour tous vos appareils électroniques."
 image_url: "https://m.media-amazon.com/images/I/614UTsYbaIL._AC_SL1500_.jpg"
@@ -30,9 +30,9 @@ satisfaction_globale:
   points_vigilance_utilisateurs:
     - "Prévoir une section de câble adaptée à la forte intensité"
     - "Consommation à vide à surveiller lors des arrêts prolongés"
-titre_h1: "Avis Convertisseur Pur Sinus 48V 220V 2000W"
-meta_title: "Avis Convertisseur Pur Sinus 48V 220V 2000W"
-meta_description: "Avis complet sur le Inverter Pur Sinus 48V 220V 2000W/4. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+titre_h1: "Avis FEITEENG 2000W Pur Sinus 48V 220V"
+meta_title: "Avis FEITEENG 2000W Pur Sinus 48V 220V"
+meta_description: "Avis complet sur le FEITEENG 2000W Pur Sinus 48V 220V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre autonomie."
 ---
 
 Le convertisseur de tension **Inverter Pur Sinus 48V 220V 2000W/4000W Transformateur** s'impose comme une référence technique pour convertir une alimentation continue basse tension en courant alternatif domestique parfaitement régulé. Conçu pour répondre aux exigences des installations autonomes, des véhicules de loisirs, des fourgons aménagés et des sites solaires isolés, cet onduleur met l'accent sur la qualité du signal électrique et la protection des équipements raccordés.

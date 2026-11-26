@@ -1,6 +1,6 @@
 ---
-titre: "Inverter 400W Pur Sinus Éco 12V 220V"
-titre_h1: "Avis Inverter 400W Pur Sinus Éco"
+titre: "TAGEEBLU 400W Pur Sinus 12V 220V Éco"
+titre_h1: "Avis TAGEEBLU 400W Pur Sinus 12V 220V"
 description_courte: "Test et analyse de l'Inverter 400W Pur Sinus Éco 12V 220V : une alternative accessible offrant 400W de puissance continue et une vraie onde pure pour petit budget."
 description_longue: "Découvrez notre banc d'essai de l'Inverter 400W Pur Sinus Éco 12V 220V. Positionné sur le segment économique avec une note de 3.5 sur 5, ce modèle permet d'accéder à la technologie pur sinus sans investissement excessif."
 image_url: "https://m.media-amazon.com/images/I/71aEE01bqxL._AC_SL1500_.jpg"
@@ -9,8 +9,8 @@ prix: "40,84"
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-500w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 
 
-meta_title: "Avis Inverter 400W Pur Sinus Éco : Test et Prix"
-meta_description: "Avis sur le Inverter 400W Pur Sinus Éco. Analyse des performances, atouts économiques et limites pour votre installation autonome."
+meta_title: "Avis TAGEEBLU 400W Pur Sinus Éco : Test et Prix"
+meta_description: "Avis complet et test du TAGEEBLU 400W Pur Sinus 12V 220V. Format compact allume-cigare pour petit électroménager et ordinateurs."
 avis_clients:
   - auteur: "Alexandre M."
     note: 5

@@ -1,14 +1,14 @@
 ---
-titre: "Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
-titre_h1: "Avis Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
+titre: "XWJNE 2000W Pur Sinus 12V 220V LCD & Télécommande"
+titre_h1: "Avis XWJNE 2000W Pur Sinus 12V 220V LCD"
 description_courte: "Test vérifié du convertisseur pur sinus 2000W 12V-220V avec écran LCD et télécommande : puissance réelle, stabilité du signal et avis terrain complet."
 description_longue: "Découvrez notre analyse détaillée et notre test vérifié du convertisseur de tension 12V 220V pur sinus 2000W. Conçu pour les vans, campings-cars, caravanes et installations solaires autonomes, cet appareil intègre un double affichage de contrôle, des prises européennes standard et des ports USB modernes pour une indépendance énergétique optimale."
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-2000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/71LFsv75n2L._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0DNDX1JWG/?tag=amazonwp0b-21"
 prix: "179,99"
-meta_title: "Avis Convertisseur Pur Sinus 2000W 12V-220V LCD & Télécommande"
-meta_description: "Avis d'expert et test vérifié du convertisseur 12V 220V pur sinus 2000W. Analyse des performances, connectique, retours d'expérience et notre verdict."
+meta_title: "Avis XWJNE 2000W Pur Sinus 12V : Test et Prix"
+meta_description: "Avis complet sur le convertisseur XWJNE 2000W Pur Sinus 12V 220V. Ports USB-C, télécommande filaire, test technique et verdict."
 avis_clients:
   - auteur: "Jojo B."
     note: 5

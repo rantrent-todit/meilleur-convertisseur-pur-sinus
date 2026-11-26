@@ -1,14 +1,14 @@
 ---
-titre: "Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
-titre_h1: "Avis Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
+titre: "JARXIOKE 3000W Pur Sinus 12V 220V Écran LCD"
+titre_h1: "Avis JARXIOKE 3000W Pur Sinus 12V 220V LCD"
 description_courte: "Convertisseur pur sinus 3000W crête 6000W 12V vers 220V avec télécommande, écran LCD et ports USB. Idéal camping-car, camion et autonomie solaire."
 description_longue: "Examen technique approfondi du convertisseur de tension 12V 220V pur sinus délivrant 3000W en continu et 6000W en crête. Doté d'une commande déportée filaire, d'un afficheur LCD multifonction, de deux prises européennes et de ports USB avec USB-C, ce transformateur s'adresse aux véhicules aménagés, bateaux et installations solaires exigeantes."
 categories: ["convertisseur-12v-220v-pur-sinus", "convertisseur-12v-220v-3000w-pur-sinus", "convertisseur-pur-sinus-camping-car"]
 image_url: "https://m.media-amazon.com/images/I/714XofRjDiL._AC_UL960_FMwebp_QL65_.jpg"
 lien_affiliation: "https://www.amazon.fr/dp/B0FLCKRPK4/?tag=amazonwp0b-21"
 prix: "249,99"
-meta_title: "Avis Convertisseur Pur Sinus 3000W 12V-220V avec Écran LCD"
-meta_description: "Test vérifié du convertisseur 12V 220V pur sinus 3000W/6000W avec LCD et télécommande. Performances, retours terrain et avis d'expert complet."
+meta_title: "Avis JARXIOKE 3000W Pur Sinus 12V : Test et Prix"
+meta_description: "Avis complet sur le JARXIOKE 3000W Pur Sinus 12V 220V. Test détaillé, puissance de crête 6000W, sécurité et retours clients vérifiés."
 avis_clients:
   - auteur: "Angélique B."
     note: 4
