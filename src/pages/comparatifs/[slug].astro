@@ -34,7 +34,7 @@ const content = categoriesCollection.find(c => c.id === slug || c.id === `${slug
 const rendered = content ? await render(content) : null;
 const Content = rendered?.Content;
 
-const title = content?.data.titre_seo || `Meilleur ${nomCat} : Comparatif et Top 10 des modèles 2026`;
+const title = content?.data.titre_seo || `Meilleur ${nomCat} : Comparatif et Top 10 des modèles`;
 const description = content?.data.description_seo || content?.data.texte_presentation?.substring(0, 160) || `Découvrez notre sélection des meilleurs ${nomCat}. Comparatif complet et guide pour faire le bon choix au meilleur prix.`;
 
 // JSON-LD FAQ
