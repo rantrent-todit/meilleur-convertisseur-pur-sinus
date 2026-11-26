@@ -1,6 +1,6 @@
 ---
-titre_seo: "Meilleurs Convertisseurs 24V 220V 2000W"
-description_seo: "Découvrez le guide ultime des convertisseurs 24V 220V 2000W pur sinus pour un usage optimal et sécurisé."
+titre_seo: "Meilleurs Convertisseurs 24V 220V 2000W Pur Sinus : Comparatif"
+description_seo: "Guide comparatif des convertisseurs pur sinus 24V 220V 2000W. Idéal pour bateaux, camions et parcs de batteries solaires 24 volts."
 faq:
   - question: "Pourquoi choisir un convertisseur 24V 220V 2000W pur sinus ?"
     reponse: "Il offre une alimentation stable, idéale pour les appareils sensibles nécessitant un courant sinusoïdal pur."

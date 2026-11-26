@@ -1,6 +1,6 @@
 ﻿---
-titre_seo: "Meilleurs Convertisseurs 12V 220V Pur Sinus"
-description_seo: "DÃ©couvrez le comparatif des meilleurs convertisseurs 12V 220V pur sinus pour une efficacitÃ© Ã©nergÃ©tique optimale."
+titre_seo: "Meilleurs Convertisseurs 12V 220V / 230V Pur Sinus : Comparatif"
+description_seo: "Comparatif indépendant des meilleurs convertisseurs pur sinus 12V vers 220V-230V. Rendement, sécurité et sélection des marques fiables pour vos batteries."
 faq:
   - question: "Qu'est-ce qu'un convertisseur 12V 220V pur sinus ?"
     reponse: "C'est un dispositif qui convertit le courant continu (DC) en courant alternatif (AC) avec une onde sinusoÃ¯dale pure, essentiel pour certains appareils Ã©lectroniques."

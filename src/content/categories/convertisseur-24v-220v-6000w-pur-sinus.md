@@ -1,6 +1,6 @@
 ---
-titre_seo: "Meilleurs convertisseurs 24v 220v 6000w"
-description_seo: "Découvrez le comparatif des convertisseurs 24v 220v 6000w pur sinus pour un choix éclairé."
+titre_seo: "Meilleurs Convertisseurs 24V 220V 6000W Pur Sinus : Comparatif Haute Puissance"
+description_seo: "Analyse et comparatif des convertisseurs pur sinus 24V 6000W pour installations solaires puissantes et ateliers autonomes."
 faq:
   - question: "Quelle est l'utilité d'un convertisseur 24v 220v 6000w pur sinus?"
     reponse: "Ce convertisseur transforme le courant continu en courant alternatif, idéal pour alimenter des appareils domestiques avec efficacité."

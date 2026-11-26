@@ -1,6 +1,6 @@
 ---
-titre_seo: "Meilleur Convertisseur 12V 220V 2000W"
-description_seo: "Découvrez notre guide sur les convertisseurs 12V 220V 2000W pur sinus pour un choix éclairé."
+titre_seo: "Meilleur Convertisseur 12V 220V 2000W Pur Sinus : Guide et Comparatif"
+description_seo: "Retrouvez notre sélection des meilleurs convertisseurs pur sinus 12V 220V 2000W. Puissance nominale réelle, protections thermiques et tests en conditions réelles."
 faq:
   - question: "Pourquoi choisir un convertisseur 12V 220V 2000W pur sinus?"
     reponse: "Il offre une alimentation stable et efficace, idéale pour les appareils sensibles comme les ordinateurs ou équipements audio-visuels."
