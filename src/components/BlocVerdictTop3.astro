@@ -1,0 +1,175 @@
+---
+import BoutonAmazon from './BoutonAmazon.astro';
+
+interface ProductItem {
+  id: string;
+  data: {
+    titre: string;
+    description_courte: string;
+    image_url: string;
+    lien_affiliation: string;
+    categories: string[];
+  };
+}
+
+interface Props {
+  produits: ProductItem[];
+  titre?: string;
+  sousTitre?: string;
+}
+
+const { 
+  produits = [],
+  titre = "Le Podium : Les 3 Meilleurs Convertisseurs Pur Sinus",
+  sousTitre = "Notre sélection des 3 modèles les plus fiables, disponibles et vérifiés en stock"
+} = Astro.props;
+
+const top3 = produits.slice(0, 3);
+if (top3.length === 0) return null;
+
+const winner = top3[0];
+const second = top3[1] || top3[0];
+const third = top3[2] || top3[0];
+---
+
+<section class="my-14">
+  <!-- En-tête de section centré -->
+  <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 mb-2">
+      <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+      Verdict Immédiat de la Rédaction
+    </span>
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 tracking-tight !my-0">
+      {titre}
+    </h2>
+    <p class="text-slate-600 text-sm sm:text-base mt-2">
+      {sousTitre}
+    </p>
+  </div>
+
+  <!-- Grille 3 colonnes -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+    <!-- N°1 : Le Grand Gagnant / Choix Rédaction -->
+    {winner && (
+      <div class="bg-white rounded-2xl border-2 border-blue-600 p-6 flex flex-col justify-between shadow-lg hover:shadow-xl transition-all relative">
+        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
+          <span class="text-xs font-black uppercase tracking-wider bg-blue-600 text-white px-4 py-1.5 rounded-full shadow-md whitespace-nowrap">
+            🏆 N°1 • Meilleur Choix
+          </span>
+        </div>
+        <div class="pt-2">
+          <div class="h-48 flex items-center justify-center p-3 mb-4 bg-slate-50 rounded-xl">
+            <img 
+              src={winner.data.image_url} 
+              alt={winner.data.titre}
+              class="max-h-full max-w-full object-contain mix-blend-multiply"
+              loading="eager"
+            />
+          </div>
+          <h3 class="text-xl font-black text-slate-900 leading-snug mb-2 text-center">
+            {winner.data.titre}
+          </h3>
+          <p class="text-slate-600 text-xs sm:text-sm line-clamp-3 mb-4 text-center">
+            {winner.data.description_courte}
+          </p>
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100 space-y-3">
+          <BoutonAmazon 
+            href={winner.data.lien_affiliation}
+            texte="Vérifier le meilleur prix"
+            sousTexte="En stock officiel sur Amazon.fr"
+            variant="winner"
+            class="w-full text-center"
+          />
+          <div class="text-center">
+            <a href={`/avis/${winner.id}/`} class="text-xs text-blue-600 hover:text-blue-800 font-bold transition-colors">
+              Lire notre avis d'expert complet →
+            </a>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- N°2 : Rapport Qualité / Prix -->
+    {second && (
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-all relative">
+        <div class="text-center mb-3">
+          <span class="text-xs font-black uppercase tracking-wider bg-amber-100 text-amber-800 px-3 py-1 rounded-full whitespace-nowrap">
+            ⭐ N°2 • Rapport Qualité / Prix
+          </span>
+        </div>
+        <div>
+          <div class="h-48 flex items-center justify-center p-3 mb-4 bg-slate-50 rounded-xl">
+            <img 
+              src={second.data.image_url} 
+              alt={second.data.titre}
+              class="max-h-full max-w-full object-contain mix-blend-multiply"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 leading-snug mb-2 text-center">
+            {second.data.titre}
+          </h3>
+          <p class="text-slate-600 text-xs sm:text-sm line-clamp-3 mb-4 text-center">
+            {second.data.description_courte}
+          </p>
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100 space-y-3">
+          <BoutonAmazon 
+            href={second.data.lien_affiliation}
+            texte="Vérifier le meilleur prix"
+            sousTexte="En stock officiel sur Amazon.fr"
+            variant="primary"
+            class="w-full text-center"
+          />
+          <div class="text-center">
+            <a href={`/avis/${second.id}/`} class="text-xs text-slate-600 hover:text-slate-900 font-bold transition-colors">
+              Lire notre avis d'expert complet →
+            </a>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- N°3 : Haut de Gamme / Forte Puissance -->
+    {third && (
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-all relative">
+        <div class="text-center mb-3">
+          <span class="text-xs font-black uppercase tracking-wider bg-purple-100 text-purple-800 px-3 py-1 rounded-full whitespace-nowrap">
+            ⚡ N°3 • Haut de Gamme
+          </span>
+        </div>
+        <div>
+          <div class="h-48 flex items-center justify-center p-3 mb-4 bg-slate-50 rounded-xl">
+            <img 
+              src={third.data.image_url} 
+              alt={third.data.titre}
+              class="max-h-full max-w-full object-contain mix-blend-multiply"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 leading-snug mb-2 text-center">
+            {third.data.titre}
+          </h3>
+          <p class="text-slate-600 text-xs sm:text-sm line-clamp-3 mb-4 text-center">
+            {third.data.description_courte}
+          </p>
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100 space-y-3">
+          <BoutonAmazon 
+            href={third.data.lien_affiliation}
+            texte="Vérifier le meilleur prix"
+            sousTexte="En stock officiel sur Amazon.fr"
+            variant="outline"
+            class="w-full text-center"
+          />
+          <div class="text-center">
+            <a href={`/avis/${third.id}/`} class="text-xs text-slate-600 hover:text-slate-900 font-bold transition-colors">
+              Lire notre avis d'expert complet →
+            </a>
+          </div>
+        </div>
+      </div>
+    )}
+  </div>
+</section>

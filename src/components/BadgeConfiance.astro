@@ -1,0 +1,58 @@
+---
+interface Props {
+  titre?: string;
+}
+
+const { titre = "Notre Protocole d'Évaluation Technique" } = Astro.props;
+
+const piliers = [
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />`,
+    nom: "Pureté de l'Onde Sinusoïdale",
+    desc: "Vérification systématique du signal à l'oscilloscope : taux de distorsion harmonique (THD < 3%) pour préserver l'électronique de précision."
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />`,
+    nom: "Sécurités Électroniques 6-en-1",
+    desc: "Contrôle des seuils de coupure automatique : alerte sous-tension batterie, surchauffe thermique, surcharge et court-circuit."
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12a9 9 0 1018 0 9 9 0 00-18 0z" />`,
+    nom: "Endurance & Rendement Réel",
+    desc: "Mesure du rendement énergétique (> 88%) et de la gestion thermique intelligente sous forte charge continue prolongée."
+  },
+  {
+    icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />`,
+    nom: "Neutralité Éditoriale",
+    desc: "Sélections rigoureuses et indépendantes : nos avis sont guidés uniquement par les performances constatées et les retours d'utilisateurs vérifiés."
+  }
+];
+---
+
+<section class="my-16 bg-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl relative overflow-hidden">
+  <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-3xl mb-10">
+    <span class="inline-block text-xs font-black uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-400/30 px-3 py-1 rounded-full mb-3">
+      Exigence & Rigueur Technique
+    </span>
+    <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight !my-0">
+      {titre}
+    </h2>
+    <p class="text-slate-300 text-sm sm:text-base mt-2 leading-relaxed">
+      Chaque équipement mentionné sur notre comparatif fait l'objet d'un examen minutieux selon 4 critères techniques fondamentaux pour garantir votre autonomie en toute sécurité.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {piliers.map((pilier) => (
+      <div class="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-5 hover:border-slate-600 transition-colors">
+        <div class="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center mb-4">
+          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" set:html={pilier.icon} />
+        </div>
+        <h3 class="font-bold text-white text-base mb-2">{pilier.nom}</h3>
+        <p class="text-xs text-slate-400 leading-relaxed">{pilier.desc}</p>
+      </div>
+    ))}
+  </div>
+</section>
