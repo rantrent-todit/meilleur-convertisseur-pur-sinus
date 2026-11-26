@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const title = "Mentions Légales et Divulgation de l'Affiliation";
+const description = "Informations légales concernant le site meilleur-convertisseur-pur-sinus.fr et transparence sur notre modèle de rémunération.";
+---
+
+<Layout title={title} description={description}>
+	<div class="container mx-auto px-4 py-8">
+		<Breadcrumb items={[{ label: "Mentions légales" }]} />
+
+		<article class="max-w-4xl mx-auto bg-white rounded-3xl shadow-sm border border-slate-200 p-8 md:p-12">
+			<h1 class="text-4xl font-extrabold text-slate-900 mb-8 leading-tight">
+				Mentions Légales
+			</h1>
+
+			<div class="prose prose-slate prose-lg max-w-none">
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Éditeur du site</h2>
+				<p>
+					Le site <strong>meilleur-convertisseur-pur-sinus.fr</strong> est un projet indépendant de guide d'achat et d'avis produits. Pour toute question, vous pouvez contacter l'administrateur à l'adresse email suivante : [Votre Email ici].
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Hébergement</h2>
+				<p>
+					Le site est hébergé par :<br />
+					<strong>o2switch</strong><br />
+					Chemin des Pardiaux<br />
+					63000 Clermont-Ferrand, France
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Propriété Intellectuelle</h2>
+				<p>
+					L'ensemble des contenus (textes, logos, mise en page) sont la propriété exclusive de l'éditeur du site. Toute reproduction, même partielle, sans autorisation préalable est strictement interdite.
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Protection des données personnelles</h2>
+				<p>
+					Ce site ne propose ni panier d'achat, ni espace client, ni collecte d'emails. Nous ne stockons aucune donnée personnelle vous concernant. Nous utilisons toutefois des cookies tiers (Amazon, Google Analytics) pour le fonctionnement de l'affiliation et l'analyse d'audience.
+				</p>
+
+				<div class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-2xl my-10">
+					<h2 class="text-orange-900 font-bold mb-4 uppercase tracking-wider text-xs">Divulgation de l'Affiliation Amazon :</h2>
+					<p class="text-orange-900 text-sm italic leading-relaxed">
+						meilleur-convertisseur-pur-sinus.fr participe au Programme Partenaires d’Amazon EU, un programme d’affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr. En tant que partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.
+					</p>
+				</div>
+			</div>
+		</article>
+	</div>
+</Layout>

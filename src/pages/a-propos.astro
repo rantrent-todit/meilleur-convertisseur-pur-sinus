@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const title = "À Propos : Notre mission et notre expertise Pur Sinus";
+const description = "Qui se cache derrière meilleur-convertisseur-pur-sinus.fr ? Découvrez notre histoire, nos valeurs et pourquoi nous testons des convertisseurs.";
+---
+
+<Layout title={title} description={description}>
+	<div class="container mx-auto px-4 py-8">
+		<Breadcrumb items={[{ label: "À propos" }]} />
+
+		<article class="max-w-4xl mx-auto bg-white rounded-3xl shadow-sm border border-slate-200 p-8 md:p-12">
+			<h1 class="text-4xl font-extrabold text-slate-900 mb-8 leading-tight text-center">
+				Experts en énergie autonome, au service de vos équipements sensibles
+			</h1>
+
+			<div class="prose prose-slate prose-lg max-w-none">
+				<p>
+					Bienvenue sur <strong>meilleur-convertisseur-pur-sinus.fr</strong>. Passionnés par le nomadisme, les énergies propres et l'électronique de puissance, nous avons créé ce site pour répondre à un besoin simple mais crucial : trouver du matériel fiable dans un marché inondé de copies bas de gamme.
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Notre Histoire</h2>
+				<p>
+					Tout a commencé lors de l'aménagement de notre propre fourgon aménagé. Après avoir grillé un chargeur d'ordinateur coûteux avec un convertisseur bon marché, nous avons compris que le "signal électrique" n'était pas un détail technique à prendre à la légère. Depuis, nous analysons et testons les convertisseurs pour vous épargner ces déboires.
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Notre Expertise (E-E-A-T)</h2>
+				<p>
+					Le site est animé par une équipe de techniciens et de voyageurs expérimentés. Chaque fiche produit est le résultat d'une analyse rigoureuse : 
+				</p>
+				<ul>
+					<li>Analyse des fiches techniques constructeurs</li>
+					<li>Retours d'expériences d'utilisateurs sur le long terme</li>
+					<li>Comparaisons des rapports puissance/prix</li>
+					<li>Tests de stabilité de signal et de ventilation</li>
+				</ul>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">Transparence Affiliation</h2>
+				<p>
+					Pour financer notre travail de recherche et l'hébergement du site, nous utilisons le programme d'affiliation d'Amazon. Cela signifie que lorsque vous cliquez sur un lien "Vérifiez le prix" et effectuez un achat, nous percevons une petite commission.
+				</p>
+				<p>
+					<strong>Ce que cela signifie pour vous :</strong>
+				</p>
+				<ul>
+					<li>Le prix ne change pas pour vous.</li>
+					<li>Nous restons totalement indépendants dans nos choix de produits.</li>
+					<li>Nous ne vendons pas de produits en direct, nous agissons en tant qu'intermédiaires de conseil.</li>
+				</ul>
+
+				<p class="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 italic text-blue-900 text-center font-medium">
+					"Nous ne recommanderons jamais un produit que nous n'installerions pas dans notre propre installation solaire ou véhicule de voyage."
+				</p>
+			</div>
+		</article>
+	</div>
+</Layout>

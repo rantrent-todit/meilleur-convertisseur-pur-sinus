@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+# 1. Empêcher les boucles infinies et supprimer index.html des URLs
+RewriteCond %{REQUEST_URI} ^(.*)/index\.html$
+RewriteRule ^(.*)index\.html$ /%1/ [R=301,L]
+
+# 2. Force le slash final (uniquement si ce n'est pas un fichier réel)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule ^(.*)$ %{REQUEST_URI}/ [L,R=301]
+
+# 3. Gestion propre du 404
+ErrorDocument 404 /404.html

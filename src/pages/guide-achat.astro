@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const title = "Guide d'Achat : Comment choisir son Convertisseur Pur Sinus ?";
+const description = "Puissance, tension, batterie, sécurité... Toutes les clés pour bien choisir votre convertisseur de tension 12V ou 24V vers 220V.";
+---
+
+<Layout title={title} description={description}>
+	<div class="container mx-auto px-4 py-8">
+		<Breadcrumb items={[{ label: "Guide d'achat" }]} />
+
+		<article class="max-w-4xl mx-auto bg-white rounded-3xl shadow-sm border border-slate-200 p-8 md:p-12">
+			<h1 class="text-4xl font-extrabold text-slate-900 mb-8 leading-tight">
+				Guide complet 2026 : Choisir le bon convertisseur Pur Sinus
+			</h1>
+
+			<div class="prose prose-slate prose-lg max-w-none">
+				<p>
+					L'installation d'un convertisseur de tension est une étape clé pour toute personne souhaitant vivre en autonomie, que ce soit en camping-car, en bateau ou sur un site isolé. Ce guide vous explique les critères techniques essentiels pour ne pas vous tromper.
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">1. Comprendre la puissance nécessaire</h2>
+				<p>
+					Il existe deux types de puissances sur un convertisseur : la puissance nominale (continue) et la puissance de crête (peak). 
+				</p>
+				<p>
+					<strong>Conseil :</strong> Additionnez la puissance de tous vos appareils destinés à fonctionner simultanément et ajoutez une marge de sécurité de 20%. Pour les appareils avec moteur (frigo, compresseur), prévoyez un convertisseur capable de supporter un pic de démarrage 3 à 5 fois supérieur à sa puissance nominale.
+				</p>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">2. Tension d'entrée : 12V, 24V ou 48V ?</h2>
+				<p>
+					Cela dépend directement de votre parc de batteries. 
+				</p>
+				<ul>
+					<li><strong>12V :</strong> Standard pour les camping-cars et petites installations solaires.</li>
+					<li><strong>24V :</strong> Recommandé pour les installations moyennes (moins de pertes dans les câbles).</li>
+					<li><strong>48V :</strong> Idéal pour les grosses installations domestiques autonomes.</li>
+				</ul>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">3. Pourquoi le "Pur Sinus" est-il obligatoire ?</h2>
+				<p>
+					Le signal électrique domestique est une onde sinusoïdale parfaite. Le convertisseur "Pseudo Sinus" (onde modifiée) génère des créneaux qui peuvent faire chauffer les moteurs, grésiller les haut-parleurs et, dans le pire des cas, détruire les composants électroniques de vos ordinateurs ou chargeurs.
+				</p>
+
+				<div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-2xl my-10">
+					<p class="text-blue-900 font-bold mb-0">
+						Retenez bien : "Qui achète bas de gamme, achète deux fois". Un convertisseur Pur Sinus est un investissement de long terme pour la santé de vos appareils.
+					</p>
+				</div>
+
+				<h2 class="text-2xl font-bold text-slate-900 mt-10 mb-4">4. Les protections indispensables</h2>
+				<p>
+					Un bon convertisseur doit être équipé de protections contre :
+				</p>
+				<ul>
+					<li>La surchauffe (ventilation intelligente)</li>
+					<li>La surcharge</li>
+					<li>La tension de batterie basse (pour ne pas vider votre batterie à fond)</li>
+					<li>Les courts-circuits</li>
+				</ul>
+			</div>
+
+			<div class="mt-12 p-8 bg-slate-50 rounded-3xl border border-slate-200 text-center">
+				<h3 class="text-xl font-bold text-slate-900 mb-4">Prêt à choisir votre modèle ?</h3>
+				<p class="text-slate-600 mb-8">Consultez nos avis détaillés pour trouver le convertisseur qui correspond à votre budget et vos besoins.</p>
+				<a href="/avis/" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-3xl font-bold hover:bg-blue-700 transition-colors">
+					Voir les avis produits
+				</a>
+			</div>
+		</article>
+	</div>
+</Layout>

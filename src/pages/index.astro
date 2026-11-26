@@ -1,0 +1,238 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import CarteApercu from '../components/CarteApercu.astro';
+import BoutonAmazon from '../components/BoutonAmazon.astro';
+import { slugify } from '../utils/slugify';
+
+const produits = await getCollection('produits');
+const top3 = produits.slice(0, 3);
+const autresProduits = produits.slice(3, 9);
+
+// Extraction unique des catégories pour le maillage interne
+const toutesCategories = [...new Set(produits.flatMap(p => p.data.categories))].sort();
+
+const title = "Meilleur Convertisseur Pur Sinus 2026 : Comparatif, Avis et Guide d'Achat";
+const description = "Vous cherchez le meilleur convertisseur pur sinus ? Découvrez notre comparatif 12v 220v, nos tests complets et notre guide d'expert pour bien choisir votre onduleur solaire ou camping-car.";
+---
+
+<Layout title={title} description={description}>
+	<!-- Hero Section Optimisée SEO -->
+	<section class="relative bg-slate-900 overflow-hidden text-white py-20 md:py-32">
+		<div class="absolute inset-0 overflow-hidden pointer-events-none">
+			<div class="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-b from-blue-500/20 to-transparent rounded-full blur-3xl"></div>
+			<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-b from-orange-500/10 to-transparent rounded-full blur-3xl transform translate-x-1/3"></div>
+		</div>
+		<div class="container mx-auto px-4 text-center relative z-10">
+			<span class="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-300 text-sm font-semibold tracking-wider mb-6 uppercase">Expertise en Énergie Nomade</span>
+			<h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight tracking-tight">
+				Meilleur <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-300">Convertisseur Pur Sinus</span> : <br class="hidden md:block"/> Comparatif & Guide 2026
+			</h1>
+			<p class="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl mx-auto font-medium leading-relaxed">
+				Ne risquez pas de griller vos appareils sensibles. Nous avons testé et sélectionné les <strong class="text-white">meilleurs convertisseurs pur sinus 12v 220v</strong> pour votre camping-car, bateau ou installation solaire.
+			</p>
+			<div class="flex flex-col sm:flex-row justify-center gap-4">
+				<a href="#comparatif" class="bg-white text-slate-900 hover:bg-slate-50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-0.5 px-8 py-4 rounded-full font-bold transition-all duration-300">
+					Voir le Top 3 Comparatif
+				</a>
+				<a href="#guide" class="bg-slate-800 text-white hover:bg-slate-700 hover:shadow-[0_0_20px_rgba(59,130,246,0.2)] hover:-translate-y-0.5 px-8 py-4 rounded-full font-bold border border-slate-700 transition-all duration-300">
+					Lire le Guide d'Achat
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Tableau Comparatif (Conversion Rapide) -->
+	<section id="comparatif" class="py-16 bg-white border-b border-slate-100">
+		<div class="container mx-auto px-4">
+			<div class="text-center mb-12">
+				<h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4">Top 3 des Meilleurs Convertisseurs Pur Sinus</h2>
+				<p class="text-slate-600 max-w-2xl mx-auto font-medium">Le choix rapide pour ceux qui veulent la meilleure fiabilité sans compromis.</p>
+			</div>
+
+			<div class="overflow-x-auto">
+				<table class="w-full min-w-[800px] border-separate border-spacing-y-4">
+					<thead>
+						<tr class="text-slate-500 text-sm font-bold uppercase tracking-wider">
+							<th class="px-6 py-4 text-left">Modèle</th>
+							<th class="px-6 py-4 text-center">Puissance Nominale</th>
+							<th class="px-6 py-4 text-center">Idéal pour</th>
+							<th class="px-6 py-4 text-center">Verdict</th>
+							<th class="px-6 py-4 text-right">Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						{top3.map((produit, index) => (
+							<tr class="bg-slate-50 rounded-2xl shadow-sm transition-transform hover:-translate-y-1">
+								<td class="px-6 py-6 rounded-l-2xl border-y border-l border-slate-100">
+									<div class="flex items-center">
+										<div class="w-16 h-16 bg-white rounded-lg p-2 mr-4 border border-slate-200">
+											<img src={produit.data.image_url} alt={produit.data.titre} class="w-full h-full object-contain mix-blend-multiply" />
+										</div>
+										<span class="font-bold text-slate-900">{produit.data.titre}</span>
+									</div>
+								</td>
+								<td class="px-6 py-6 text-center border-y border-slate-100">
+									<span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold">Variable</span>
+								</td>
+								<td class="px-6 py-6 text-center border-y border-slate-100">
+									<span class="text-slate-600 text-sm font-medium">Tout usage</span>
+								</td>
+								<td class="px-6 py-6 text-center border-y border-slate-100">
+									<div class="flex justify-center text-orange-400">
+										{[...Array(5)].map(() => (
+											<svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+										))}
+									</div>
+								</td>
+								<td class="px-6 py-6 text-right rounded-r-2xl border-y border-r border-slate-100">
+									<BoutonAmazon href={produit.data.lien_affiliation} class="!py-2 !px-4 !text-xs !rounded-lg" />
+								</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sélection Produits (UX Grid) -->
+	<section class="py-20 bg-slate-50">
+		<div class="container mx-auto px-4">
+			<div class="flex flex-col md:flex-row justify-between items-center mb-12 gap-6">
+				<div>
+					<h2 class="text-3xl font-black text-slate-900 mb-2 italic">Sélection des Experts</h2>
+					<p class="text-slate-500 font-medium">Analyses détaillées des modèles les plus fiables de l'année.</p>
+				</div>
+				<a href="/avis/" class="bg-white border border-slate-200 px-6 py-3 rounded-full text-sm font-bold text-slate-700 hover:bg-slate-100 transition-colors">
+					Voir tous les tests &rarr;
+				</a>
+			</div>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				{autresProduits.map(produit => (
+					<CarteApercu produit={produit} />
+				))}
+			</div>
+		</div>
+	</section>
+
+	<!-- Guide d'Achat Long-Form (SEO Power) -->
+	<section id="guide" class="py-24 bg-white">
+		<div class="container mx-auto px-4 max-w-5xl">
+			<header class="text-center mb-16">
+				<h2 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">
+					Comment choisir le <span class="text-blue-600">meilleur convertisseur pur sinus</span> ?
+				</h2>
+				<div class="w-24 h-1 bg-orange-500 mx-auto rounded-full"></div>
+			</header>
+
+			<div class="prose prose-slate prose-lg max-w-none text-slate-600 leading-relaxed">
+				<p class="text-xl font-medium text-slate-800 bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 mb-10">
+					Investir dans un convertisseur 12v 220v est une étape cruciale pour l'autonomie électrique. Cependant, une erreur de choix peut s'avérer coûteuse. Ce guide vous explique pourquoi le <strong class="text-slate-900">pur sinus</strong> est la seule option viable pour vos appareils électroniques.
+				</p>
+
+				<h3 class="text-3xl font-extrabold text-slate-900 mt-12 mb-6">1. Qu'est-ce qu'un convertisseur pur sinus ?</h3>
+				<p>
+					Un convertisseur pur sinus (ou onduleur à onde sinusoïdale pure) transforme le courant continu (DC) de vos batteries en courant alternatif (AC) de 220V/230V. Sa particularité est de générer une onde électrique identique, voire supérieure en qualité, à celle fournie par votre prise de courant domestique (EDF).
+				</p>
+				<p>
+					À l'inverse, les modèles "pseudo sinus" ou "onde modifiée" créent une onde "en escalier" qui génère des parasites et peut surchauffer, voire détruire, les équipements munis de microprocesseurs ou de moteurs.
+				</p>
+
+				<div class="my-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+					<div class="bg-slate-900 text-white p-8 rounded-2xl">
+						<h4 class="text-orange-400 font-bold mb-4 flex items-center">
+							<svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Avantages du Pur Sinus
+						</h4>
+						<ul class="space-y-3 text-sm text-slate-300">
+							<li class="flex items-start"><span class="text-orange-400 mr-2">•</span> Compatibilité totale avec TOUS les appareils.</li>
+							<li class="flex items-start"><span class="text-orange-400 mr-2">•</span> Aucun bruit parasite sur les écrans ou haut-parleurs.</li>
+							<li class="flex items-start"><span class="text-orange-400 mr-2">•</span> Rendement énergétique supérieur (+90%).</li>
+							<li class="flex items-start"><span class="text-orange-400 mr-2">•</span> Durée de vie prolongée de vos batteries.</li>
+						</ul>
+					</div>
+					<div class="bg-slate-50 p-8 rounded-2xl border border-slate-200">
+						<h4 class="text-slate-900 font-bold mb-4 flex items-center">
+							<svg class="w-6 h-6 mr-2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+							Attention au Pseudo Sinus
+						</h4>
+						<ul class="space-y-3 text-sm text-slate-500">
+							<li class="flex items-start"><span class="text-red-400 mr-2">!</span> Risque de griller les ordinateurs portables.</li>
+							<li class="flex items-start"><span class="text-red-400 mr-2">!</span> Incompatible avec les machines à café et frigos.</li>
+							<li class="flex items-start"><span class="text-red-400 mr-2">!</span> Sifflements désagréables lors du fonctionnement.</li>
+						</ul>
+					</div>
+				</div>
+
+				<h3 class="text-3xl font-extrabold text-slate-900 mt-12 mb-6">2. Les 3 critères pour trouver le meilleur modèle</h3>
+				
+				<h4 class="text-xl font-bold text-slate-900">A. La Puissance Nominale vs Puissance Crête</h4>
+				<p>
+					C'est l'erreur la plus fréquente. La <strong>puissance nominale</strong> (Watts) est ce que le convertisseur peut fournir en continu. La <strong>puissance crête</strong> est sa capacité à absorber une surcharge temporaire (souvent 2x la nominale) pendant quelques millisecondes, nécessaire au démarrage d'un moteur (compresseur de frigo, pompe).
+				</p>
+
+				<h4 class="text-xl font-bold text-slate-900 mt-8">B. La Tension d'Entrée : 12V, 24V ou 48V ?</h4>
+				<p>
+					Le meilleur convertisseur pur sinus pour vous doit correspondre à la tension de votre parc de batteries. 
+					<ul class="list-disc pl-6">
+						<li><strong>12V :</strong> Standard pour les camping-cars et petites camionnettes.</li>
+						<li><strong>24V :</strong> Idéal pour les camions et les installations solaires de moyenne taille.</li>
+						<li><strong>48V :</strong> Recommandé pour les maisons en site isolé ou les grosses installations.</li>
+					</ul>
+				</p>
+
+				<h4 class="text-xl font-bold text-slate-900 mt-8">C. Les Systèmes de Sécurité (Protections)</h4>
+				<p>
+					Un onduleur de qualité doit impérativement posséder des protections contre la surtension, la sous-tension (pour protéger votre batterie), la surchauffe et les courts-circuits. Sans cela, vous mettez en danger votre installation électrique complète.
+				</p>
+
+				<div class="mt-16 bg-blue-600 rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden">
+					<div class="absolute -right-20 -bottom-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+					<h3 class="text-2xl font-black mb-4 relative z-10">Besoin d'un avis personnalisé ?</h3>
+					<p class="mb-8 text-blue-100 relative z-10">Nos experts ont passé plus de 50 heures à tester ces équipements en conditions réelles (camping sauvage, site isolé). Consultez nos tests détaillés pour ne pas vous tromper.</p>
+					<a href="/avis/" class="inline-block bg-white text-blue-600 px-10 py-4 rounded-full font-bold hover:shadow-xl transition-all relative z-10">Accéder aux Avis Tests</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Maillage Interne Catégories SEO -->
+	<section class="py-16 bg-slate-950 text-white">
+		<div class="container mx-auto px-4">
+			<h2 class="text-2xl font-bold mb-10 text-center uppercase tracking-[0.2em] text-slate-500">Nos Guides par Catégorie</h2>
+			<div class="flex flex-wrap justify-center gap-4">
+				{toutesCategories.map(cat => (
+					<a 
+						href={`/comparatifs/${slugify(cat)}/`} 
+						class="bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-blue-400 px-6 py-4 rounded-xl text-sm font-bold shadow-sm transition-all duration-300"
+					>
+						{cat}
+					</a>
+				))}
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ SEO -->
+	<section class="py-24 bg-white border-t border-slate-100">
+		<div class="container mx-auto px-4 max-w-4xl">
+			<h2 class="text-3xl font-black text-slate-900 mb-12 text-center">Foire aux questions sur les convertisseurs pur sinus</h2>
+			<div class="space-y-8">
+				<div class="p-6 bg-slate-50 rounded-2xl">
+					<h3 class="font-bold text-lg text-slate-900 mb-3">Quelle puissance choisir pour mon convertisseur ?</h3>
+					<p class="text-slate-600">Faites la somme des watts de vos appareils que vous comptez utiliser en même temps, puis ajoutez une marge de sécurité de 20%. Pour un frigo, prévoyez un modèle avec une forte puissance crête.</p>
+				</div>
+				<div class="p-6 bg-slate-50 rounded-2xl">
+					<h3 class="font-bold text-lg text-slate-900 mb-3">Est-ce que le pur sinus use plus la batterie ?</h3>
+					<p class="text-slate-600">Non, au contraire. Son rendement supérieur limite les pertes de chaleur, ce qui est plus économique pour vos batteries sur le long terme.</p>
+				</div>
+				<div class="p-6 bg-slate-50 rounded-2xl">
+					<h3 class="font-bold text-lg text-slate-900 mb-3">Puis-je brancher une cafetière Nespresso sur mon convertisseur ?</h3>
+					<p class="text-slate-600">Oui, mais uniquement sur un modèle Pur Sinus de 1500W ou 2000W minimum, car les cafetières à capsules sont extrêmement exigeantes en courant au démarrage.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</Layout>

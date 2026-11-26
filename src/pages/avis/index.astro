@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import CarteApercu from '../../components/CarteApercu.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const produits = await getCollection('produits');
+
+const title = "Avis Convertisseur Pur Sinus : Nos Tests Produits";
+const description = "Retrouvez tous nos avis détaillés sur les convertisseurs pur sinus. Tests, avantages, inconvénients et notre verdict sur chaque modèle.";
+---
+
+<Layout title={title} description={description}>
+	<div class="container mx-auto px-4 py-8">
+		<Breadcrumb items={[{ label: "Tous les avis" }]} />
+		
+		<header class="mb-12">
+			<h1 class="text-4xl font-extrabold text-slate-900 mb-4">
+				Avis et tests de convertisseurs Pur Sinus
+			</h1>
+			<p class="text-lg text-slate-600 max-w-3xl">
+				Explorez notre sélection complète de fiches produits. Chaque modèle a été analysé pour vous fournir une vision transparente de ses performances, sa fiabilité et son rapport qualité/prix.
+			</p>
+		</header>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+			{produits.map(produit => (
+				<CarteApercu produit={produit} />
+			))}
+		</div>
+
+		{produits.length === 0 && (
+			<div class="text-center py-20 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200">
+				<p class="text-slate-500 font-medium italic">Aucun avis disponible pour le moment.</p>
+			</div>
+		)}
+	</div>
+</Layout>
