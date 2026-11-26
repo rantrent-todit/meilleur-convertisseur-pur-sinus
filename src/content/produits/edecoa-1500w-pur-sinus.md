@@ -8,6 +8,35 @@ lien_affiliation: "https://www.amazon.fr/dp/B07DHJQH9F/?tag=amazonwp0b-21"
 titre_h1: "Avis EDECOA 1500W Pur Sinus 12V 220V"
 meta_title: "Avis EDECOA 1500W Pur Sinus 12V 220V : Test et Prix"
 meta_description: "Avis complet sur le EDECOA 1500W Pur Sinus 12V 220V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+avis_clients:
+  - auteur: "P. L."
+    note: 5
+    titre: "Très bon rapport qualité prix"
+    commentaire: "Nettement moins cher que la concurrence, j’avoue que j'étais inquiet quant à sa fiabilité. Mais 2 ans après, j’avoue que j’en suis très content. Je m’en sers tous les jours avec mes batteries lithium pour la cuisine dans mon fourgon. Plus de gaz, plaque halogène, bouilloire électrique, plancha électrique, tous ces éléments consomment entre 1 et 1,5kW et le convertisseur les alimentent tranquillement sans trop chauffer. Les ventilateurs fonctionnent de temps en temps, faut dire qu'il cohabite avec le chauffage chauffe eau dans un local mal ventilé ...J'ai eu un petit souci avec la télécommande qui avait du mal à démarrer ou arrêter le convertisseur. Après contact avec le SAV, Novopal m’a expédié une nouvelle télécommande à quelques jours de la fin de la garantie sur ma seule bonne foi ! Merci à eux pour leur confiance !"
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "MickiGrind"
+    note: 5
+    titre: "Fonctionne très bien depuis plus d'un an"
+    commentaire: "Je m'en sers en continu depuis maintenant plus d'un an, elle est silencieuse, je peux facilement faire réchauffer mon plat, ou utiliser ma bouilloire dans le camion, je peux même brancher mon pc portable. Même quand les petits ventilateurs tournent on ne l'entend quasiment pas.Elle fonctionne parfaitement bien !"
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "Fernando"
+    note: 5
+    titre: "Être rassuré avec un bon matériel"
+    commentaire: "Très bon matériel je peux a présent laisser mon petit frigo a compressions dans mon fourgon branché en 220v jour et nuit je dirais juste appareil au top je recommande fortement 🙏 merci au vendeur"
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "Tubule"
+    note: 4
+    titre: "Reliable"
+    commentaire: "Excellent product still working after 3 or 4 years without issue.A small current is used in the standby mode, but this is not an issue."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+satisfaction_globale:
+  note_moyenne: 4.4
+  total_avis: 100
+  taux_positif: "87%"
 ---
 
 ## Introduction et positionnement

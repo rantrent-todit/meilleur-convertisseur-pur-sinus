@@ -1,4 +1,5 @@
 ---
+import BlocAvisClientsVerifies from '../../components/BlocAvisClientsVerifies.astro';
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
 import { slugify } from '../../utils/slugify';
@@ -158,6 +159,12 @@ const jsonLd = {
 					prose-img:rounded-2xl prose-img:shadow-lg
 					prose-h2:text-3xl prose-h2:mt-12 prose-h2:pb-4 prose-h2:border-b prose-h2:border-slate-100">
 					<Content />
+				<BlocAvisClientsVerifies 
+					avis={produit.data.avis_clients} 
+					satisfaction={produit.data.satisfaction_globale} 
+					lienAmazon={produit.data.lien_affiliation} 
+				/>
+
 				</div>
 			</div>
 

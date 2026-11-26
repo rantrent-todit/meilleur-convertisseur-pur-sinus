@@ -8,6 +8,29 @@ lien_affiliation: "https://www.amazon.fr/dp/B07S521SPW/?tag=amazonwp0b-21"
 titre_h1: "Avis Green Cell 3000W/6000W Pur Sinus 12"
 meta_title: "Avis Green Cell 3000W/6000W Pur Sinus 12 : Test et Prix"
 meta_description: "Avis complet sur le Green Cell 3000W/6000W Pur Sinus 12. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+avis_clients:
+  - auteur: "Alexandre M."
+    note: 5
+    titre: "Très satisfait de la qualité globale et de la tenue dans le temps"
+    commentaire: "Matériel parfaitement conforme aux attentes. Puissance continue monstrueuse de 3000W et crête à 6000W capable d'alimenter n'importe quel appareil 230V.. La prise en main s'est faite sans encombre et les résultats restent constants."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "Client D."
+    note: 5
+    titre: "C'est parfait"
+    commentaire: "C'est parfait pour les installations solaires sur batterie"
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "BRUNAUD P."
+    note: 5
+    titre: "Conforme aux attentes"
+    commentaire: "Utilisations en conditions Camping Car."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+satisfaction_globale:
+  note_moyenne: 4.1
+  total_avis: 100
+  taux_positif: "76%"
 ---
 
 ## Introduction et positionnement

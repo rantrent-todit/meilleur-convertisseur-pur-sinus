@@ -8,6 +8,35 @@ lien_affiliation: "https://www.amazon.fr/dp/B0744LR2DZ/?tag=amazonwp0b-21"
 titre_h1: "Avis Green Cell 300W/600W Pur Sinus 12V"
 meta_title: "Avis Green Cell 300W/600W Pur Sinus 12V : Test et Prix"
 meta_description: "Avis complet sur le Green Cell 300W/600W Pur Sinus 12V. Découvrez notre test détaillé, performances de puissance et sécurité pour votre installation autonome."
+avis_clients:
+  - auteur: "Didier"
+    note: 4
+    titre: "Pour de petits appareils comme des ordinateurs portables ou autre"
+    commentaire: "Reçu le 16 octobre. l'appareil est équipé d'une prise allume cigare équipée d'un fusible de 20 amp, 250 volts !!.Il y a aussi des câbles assez courts pour un branchement direct sur les pôles de la batterie. le diamètre des oeillets est bien trop faible. il faudra donc adapter, sachant qu'en faisant ce montage on se prive de ce précieux fusible.Par ailleurs, il est fourni 2 fusibles languettes de forte puissance : 30 amp. Si ces fusibles inaccessibles claquent, il faut démonter le transfo, avec les risques que cela implique.Le courant en entrée est du 12 volts mais il accepte une puissance plus forte comme du 14 ou du 15 volts (la notice indique même 24 volts, soit 2 batteries montées en série.)J'ai branché un ordinateur portable (50 watts en 20 volts) via son propre câble transfo et il s'est chargé normalement. le ventilateur ne s'est pas déclenché, ce qui est cohérent. il est conseillé de ne pas dépasser 150 watts quand on roule.Première impression favorable donc mais je n'ai pas fait le tour de la question.la notice est rédigée en plusieurs langues dont un français très correct.L'importateur polonais fait venir ce transfo de Chine, où il est fabriqué.Si vous voulez changer le fusible languette de 30 ampères, il suffit de dévisser les 4 vis du haut uniquement. le couvercle vient tout seul.le fusible est coincé derrière les fils rouges et noirs d'alimentation. rien d'insurmontable mais ce n'est pas vraiment pratique. On sent que ça n'a pas été très bien pensé. Bien entendu vous faites cette opération hors tension mais cela va sas dire...J'ai essayé de faire fonctionner un mixer de 400 w. ça ne passe pas, l'alarme se déclenche tout de suite.Je viens de faire un test concluant pour 74 watts. j'ai branché un Pc portable de 50 watts et un \"magnétoscope\" numérique de 29 watts. le voyant d'alarme ne s'est pas déclenché, ni le ventilateur.Donc c'est validé pour 80 WATTS."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "Client vérifié"
+    note: 5
+    titre: "Du vrai 220 V enfin !"
+    commentaire: "J'avais déjà acheté il y a quelques années un convertisseur moitié moins cher que ce modèle. Or je me suis vite rendu compte qu'il ne servait pas à grand chose, sauf pour y brancher une vieille ampoule à incandescence. Car tout le reste fonctionnait mal. Ampoule LED qui clignote, néon lumineux qui siffle, etc... je n'ai jamais osé y brancher un appareil électronique comme un PC portable.Avec ce modèle, tout change. J'ai testé la tension en sortie et j'ai trouvé 222 volt. C'est déjà nettement mieux que le pénible 200 volt de l'ancien modèle.Je n'ai pas un oscilloscope pour vérifier le signal pure sinus mais je fais confiance aux autres acheteurs qui ont fait le test, et ça semble être le cas. On peut donc tout brancher dessus sans crainte. Dans la limite des 300 W bien entendu.Dernière remarque : la prise USB permet une charge rapide des smartphones. Très bien.edit du 27 mai : grosse frayeur car hier le convertisseur ne fonctionnait plus. En fait c'est tout simplement la prise allume cigare fournie avec l'appareil qui était défectueuse, et ne transférait plus le courant. Donc attention à cette prise pas du tout fiable visiblement."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "Yves"
+    note: 5
+    titre: "conforme utilisé pour chargeur 200w de trottinette"
+    commentaire: "Batterie et panneau solaire me permettent l'usage de ce convertisseur. Il est livré sans câble, mais une prise allume cigare, ne pouvant fournir que 8 à 10 ampères serait totalement insuffisante, et ne permettrait pas de fonctionner à sa puissance nominale. Les entrées 12 volts + et - , prévues pour fixer des cosses, sont de bonne facture pour permettre le passage d'environ 30 ampères, j''ai utilisé deux fils de 6 mm², sur lesquels j'ai serti des cosses et en plus soudée pour assurer lez contact, c'est ce qu'il faut assurer un fonctionnement parfait du convertisseur, sinon cela peut génèrer des insuffisances de passage de courant et le convertisseur se mettrait en défaut. C'est probablement la raison que je peux constater dans certains commentaires..."
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+  - auteur: "David"
+    note: 5
+    titre: "C’est nickel mais direct sur la batterie"
+    commentaire: "Ça marche super bien a condition d’avoir un 12v avec suffisamment d’ampère, en même temps c’est logique, 300w sous 240v ça fait plus d’un 1A, alors ramené à 12v avec en plus l’électronique qui génère l’alternatif ça fait plus de 30A à charge max, autant dire qu’il faut oublier la prise allume cigare, je vois même pas pourquoi ils mettent cette prise est fourni"
+    usage: "Acheteur vérifié Amazon.fr"
+    achat_verifie: true
+satisfaction_globale:
+  note_moyenne: 4.2
+  total_avis: 100
+  taux_positif: "79%"
 ---
 
 ## Introduction et positionnement
